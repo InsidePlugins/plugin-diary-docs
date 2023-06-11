@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>RarityEG's Plugin Dev Tutorial</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="A MC plugin development tutorial by pony!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+    <style>
+        .docsify-copy-code-button {
+        width:3.6em !important;
+        }
+        </style>
+    <link
+      rel="icon"
+      href="//cdn.statically.io/gh/Andy-K-Sparklight/mcl-dev-tutor/main/favicon.ico"
+    />
+    <script src="//unpkg.com/jquery/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/docsify-themeable@0/dist/css/theme-simple.css"> </link>
+    <style>
+      em{
+      color:#b3b3b3;
+      }
+      </style>
+  <style>
+      }
+      em strong {
+      color:#939393;
+      }
+      </style>
+  <style>
+      </style>
+  <body>
+
+    <div id="app"></div>
+    <script>
+   
+      window.$docsify = {
+        plugins: [],
+        name: `RarityEG's Plugin Dev Tutorial`,
+        loadSidebar: true,
+        externalLinkTarget: "_blank",
+        pagination: {
+        previousText: 'this.prevPage();',
+        nextText: 'this.nextPage();',
+        crossChapter: true,
+        crossChapterText: true,
+  },
+      };
+    </script>
+    <script src="//cdn.statically.io/gh/Andy-K-Sparklight/PluginDiary/master/log.js"></script>
+    
+
+    <link
+      rel="stylesheet"
+      href="//unpkg.com/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//unpkg.com/@fortawesome/fontawesome-free/css/v4-shims.min.css"
+    />
+    <style>
+      @font-face {
+        font-family: "Fira Code";
+        src: url("//cdn.statically.io/gh/Andy-K-Sparklight/PluginDiary/master/FiraCode-Regular.ttf");
+      }
+      body {
+        font-family: "Fira Code", BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-variant-ligatures: normal;
+      }
+    </style>
+
+    <style>
+        
+        .btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-info {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-info:hover {
+  color: #fff;
+  background-color: #138496;
+  border-color: #117a8b;
+}
+
+.btn-info:focus, .btn-info.focus {
+  color: #fff;
+  background-color: #138496;
+  border-color: #117a8b;
+  box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5);
+}
+
+.btn-info.disabled, .btn-info:disabled {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active,
+.show > .btn-info.dropdown-toggle {
+  color: #fff;
+  background-color: #117a8b;
+  border-color: #10707f;
+}
+
+.btn-info:not(:disabled):not(.disabled):active:focus, .btn-info:not(:disabled):not(.disabled).active:focus,
+.show > .btn-info.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5);
+}
+button {
+  border-radius: 0;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}.btn-success {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.btn-success:focus, .btn-success.focus {
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+  box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+}
+
+.btn-success.disabled, .btn-success:disabled {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active,
+.show > .btn-success.dropdown-toggle {
+  color: #fff;
+  background-color: #1e7e34;
+  border-color: #1c7430;
+}
+
+.btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus,
+.show > .btn-success.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+}
+        </style>
+
+ 
+    <script src="//unpkg.com/docsify"></script>
+    <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="https://unpkg.com/docsify-themeable/dist/js/docsify-themeable.min.js"></script>
+    <script src="https://unpkg.com/docsify-tabs/dist/docsify-tabs.min.js"></script>
+    <script src="https://unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <script src="https://unpkg.com/docsify/lib/plugins/external-script.min.js"></script>
+    <script src="https://unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+    <script src="https://unpkg.com/prismjs/components/prism-java.min.js"></script>
+    <script src="https://unpkg.com/prismjs/components/prism-groovy.min.js"></script>
+    <script src="https://unpkg.com/prismjs/components/prism-properties.min.js"></script>
+    <script src="https://unpkg.com/prismjs/components/prism-yaml.min.js"></script>
+    <script src="https://unpkg.com/prismjs/components/prism-sql.min.js"></script>
+    <script src="https://unpkg.com/prismjs/components/prism-json.min.js"></script>
+  <script>
+  var install = function (hook, vm) {
+        hook.doneEach(function(){
+            window.scrollTo(0, 0);
+            
+            })
+
+  }
+  $docsify.plugins = [].concat(install, $docsify.plugins);
+  </script>
+  </body>
+</html>
