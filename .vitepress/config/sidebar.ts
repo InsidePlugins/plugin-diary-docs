@@ -37,7 +37,6 @@ const docs = [
       { text: "经典 GUI", link: "/docs/md/3-1.md" },
       { text: "奇怪的物品", link: "/docs/md/3-2.md" },
       { text: "深入研究玩家", link: "/docs/md/3-3.md" },
-      { text: "什么是 CLI", link: "/docs/md/3-4.md" },
       { text: "编写菜单插件", link: "/docs/md/EX-2-1.md" },
       { text: "调试菜单插件", link: "/docs/md/EX-2-2.md" },
     ],
