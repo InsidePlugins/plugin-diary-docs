@@ -32,12 +32,6 @@ jobs:
 
     - name: Build VitePress
       run: npm run build
-
-    - name: Checkout site branch
-      uses: actions/checkout@v2
-      with:
-        ref: site
-        clean: false
         
     - name: Commit and push to site branch
       run: |
