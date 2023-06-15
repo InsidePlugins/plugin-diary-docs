@@ -11,7 +11,7 @@ import type MarkdownIt from "markdown-it";
  */
 export default defineConfig({
   title: "PluginDiary",
-  base: "/plugin-diary",
+  base: "/",
   head: [["meta", { name: "theme-color", content: "#0c9dff" }]],
   lang: "en-US",
   /**
@@ -38,7 +38,7 @@ export default defineConfig({
       message:
         'Released under the <a style="font-weight: 600" href="https://github.com/talex-touch/talex-touch/blob/master/LICENSE">Mozilla Public License 2.0</a>.',
       copyright:
-        'Copyright © 2022-2023 <a style="font-weight: 600;color:#FF3E57" href="https://github.com/PVPINStudio">PVPIN Studio Org</a>',
+        'Copyright © 2022-2023 <a style="font-weight: 600;color:#FF3E57" href="https://github.com/PVPINStudio">PVPIN Studio</a>',
     },
     // editLink: {
     //   pattern:
