@@ -1,7 +1,12 @@
+// import Fira Code from google fonts (cn)
+@import url('https://fonts.googleapis.cn/css2?family=Fira+Code:wght@400;700&display=swap');
+
 :root {
   --vp-c-green: #0c9dff;
   --vp-c-brand-dark: #0c23ff;
   --vp-c-bg-alt: #eeeeee; // 侧边栏
+  // use Fira Code
+  --vp-font-family-mono: ui-monospace, "Fira Code", SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
 
 .dark {
