@@ -10,7 +10,7 @@ import type MarkdownIt from "markdown-it";
  * @see app-configs https://vitepress.vuejs.org/config/app-configs.html
  */
 export default defineConfig({
-  title: "InsideTutorial",
+  title: "PluginDiary",
   base: "/plugin-diary",
   head: [["meta", { name: "theme-color", content: "#0c9dff" }]],
   lang: "en-US",
