@@ -38,7 +38,7 @@ jobs:
         git config user.name "GitHub Actions"
         git config user.email "actions@github.com"
         git checkout --orphan pvpin-pages
-        git --work-tree ./.vitepress/dist/ add -all
+        git --work-tree ./.vitepress/dist/ add --all
         git --work-tree ./.vitepress/dist/ commit -m pvpin-pages
         git push origin HEAD:pvpin-pages --force
         git checkout -f master
