@@ -6,6 +6,7 @@ import TouchBubbles from './base/TouchBubbles.vue';
 <template>
   <div class="Home-Header">
     <h1>PluginDiary 插件开发教程</h1>
+    <p></p>
     <p>内制重裒，佚篇复合；翦榛集翠，焚艾留芝。</p>
     <Logo />
     <!-- <TouchBubbles /> -->
