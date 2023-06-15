@@ -43,3 +43,8 @@ jobs:
         git push origin HEAD:pvpin-pages --force
         git checkout -f master
         git branch -D pvpin-pages
+
+    - name: Notify remote server to update
+      run: |
+        curl --connect-timeout 5 ${{ secrets.NOTIFY_URL }}
+    
