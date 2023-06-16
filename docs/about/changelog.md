@@ -1,4 +1,4 @@
-# PluginDiary 重修日志
+# PluginDiary 补订纪事
 
 本教程为 [ThatRarityEG](https://www.mcbbs.net/home.php?mod=space&uid=3281025) 道席所著。谨按，作者最后一次更新系二〇二二年十二月十八日之事，故本站以 [Commit#554c33c](https://github.com/Andy-K-Sparklight/PluginDiary/commit/554c33c477e24974f77cf4cfa44d9bdaf5eb62a0) 为底本，芟荑校勘。
 

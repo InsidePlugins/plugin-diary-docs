@@ -69,7 +69,7 @@ const members = [
   {
     avatar: 'https://github.com/Deer403.png',
     name: 'Deer403',
-    title: '协纂',
+    title: '校对',
     links: [
       { icon: 'github', link: 'https://github.com/Deer403' }
     ]
@@ -77,7 +77,7 @@ const members = [
   {
     avatar: 'https://github.com/KouyouX.png',
     name: 'Mochizuki Haruka',
-    title: '协纂',
+    title: '校对',
     links: [
       { icon: 'github', link: 'https://github.com/KouyouX' }
     ]
@@ -85,7 +85,7 @@ const members = [
   {
     avatar: 'https://github.com/yinghaoting.png',
     name: 'YingHaoTing',
-    title: '协纂',
+    title: '校对',
     links: [
       { icon: 'github', link: 'https://github.com/yinghaoting' }
     ]
@@ -93,7 +93,7 @@ const members = [
 ]
 </script>
 
-# PluginDiary 重修团队
+# PluginDiary 补订者职名
 
 探元珠于赤水，甲令星悬；扫落叶于青山，寅衷冰惕。
 
