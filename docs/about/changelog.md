@@ -10,4 +10,6 @@
 
 十二日晨，TalexDreamSoul 建立 [plugin-diary-docs](https://github.com/InsidePlugins/plugin-diary-docs) 仓库，以 Vitepress 构建页面。Moe_Miner 部署页面至一香港服务器上，并启用域名 [docs.pvpin.org](https://docs.pvpin.org) 以供访问。
 
-十五日晨，Moe_Miner 调试 Github Actions 毕。自是，更新 [plugin-diary-docs](https://github.com/InsidePlugins/plugin-diary-docs) 仓库后，[docs.pvpin.org](https://docs.pvpin.org/plugin-diary/) 上内容随之而变。
+十五日晨，Moe_Miner 调试 Github Actions 毕。自是，更新 [plugin-diary-docs](https://github.com/InsidePlugins/plugin-diary-docs) 仓库后，[https://docs.pvpin.org/plugin-diary/](https://docs.pvpin.org/plugin-diary/) 上内容随之而变。
+
+十六日晨，Moe_Miner 改域名作 [plugindiary.pvpin.org](https://plugindiary.pvpin.org/) ，仍同步 [plugin-diary-docs](https://github.com/InsidePlugins/plugin-diary-docs) 仓库，一应推送流程不变。
