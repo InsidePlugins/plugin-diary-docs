@@ -93,7 +93,7 @@ const members = [
 ]
 </script>
 
-# PluginDiary 补订者职名
+# 编校人员职名
 
 探元珠于赤水，甲令星悬；扫落叶于青山，寅衷冰惕。
 

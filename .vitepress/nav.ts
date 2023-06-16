@@ -5,14 +5,7 @@
  */
 export const nav = [
   { text: "概览", link: "/" },
-  {
-    text: "卷首",
-    items: [
-      { text: "叙引", link: "/docs/src/Volume0/Preface.md" },
-      { text: "原题", link: "/docs/src/Volume0/HomePage_Original.md" },
-      { text: "原序", link: "/docs/src/Volume0/Preface_Original.md" },
-    ],
-  },
+  { text: "卷首", link: "/docs/src/Volume0/HomePage_Original.md" },
   {
     text: "目次",
     items: [
@@ -27,18 +20,6 @@ export const nav = [
     ],
   },
   {
-    text: "后序",
-    items: [
-      { text: "原后序上", link: "/docs/src/Volume9/END-8-1.md" },
-      { text: "原后序下", link: "/docs/src/Volume9/END-8-2.md" },
-      { text: "原附录", link: "/docs/src/Volume9/EG-1.md" },
-    ],
-  },
-  {
-    text: "跋辞",
-    items: [
-      { text: "纪事", link: "/docs/about/Log.md" },
-      { text: "职名", link: "/docs/about/TeamPage.md" },
-    ],
+    text: "后序", link: "/docs/src/Volume9/END-8-1.md"
   },
 ];

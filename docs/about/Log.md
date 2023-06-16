@@ -1,6 +1,6 @@
-# PluginDiary 补订纪事
+# 重梓《日记》纪事
 
-本教程为 [ThatRarityEG](https://www.mcbbs.net/home.php?mod=space&uid=3281025) 道席所著。谨按，作者最后一次更新系二〇二二年十二月十八日之事，故本站以 [Commit#554c33c](https://github.com/Andy-K-Sparklight/PluginDiary/commit/554c33c477e24974f77cf4cfa44d9bdaf5eb62a0) 为底本，芟荑校勘。
+本教程为 [ThatRarityEG](https://www.mcbbs.net/home.php?mod=space&uid=3281025) 道席所著。谨按，作者最后一次更新系二〇二二年十二月十八日之事，故本站以 [Commit#554c33c](https://github.com/Andy-K-Sparklight/PluginDiary/commit/554c33c477e24974f77cf4cfa44d9bdaf5eb62a0) 为底本，芟荑校勘，成《补订<插件开发日记>》。《补订》既成，即需架设网站，以替代原 Cloudflare Pages 之过时页面。故此，记录重梓以来二三事，供后来者参览。
 
 ## 2023-6
 

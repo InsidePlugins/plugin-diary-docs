@@ -8,9 +8,8 @@ export const sidebar = [
   {
     text: "卷首",
     items: [
-      { text: "补订《日记》叙引", link: "/docs/src/Volume0/Preface.md" },
-      { text: "原题辞", link: "/docs/src/Volume0/HomePage_Original.md" },
-      { text: "原序言", link: "/docs/src/Volume0/Preface_Original.md" },
+      { text: "主页", link: "/docs/src/Volume0/HomePage_Original.md" },
+      { text: "引言", link: "/docs/src/Volume0/Preface_Original.md" },
     ],
   },
   {
@@ -115,8 +114,9 @@ export const sidebar = [
   {
     text: "跋辞",
     items: [
-      { text: "补订纪事", link: "/docs/about/Log.md" },
-      { text: "补订者职名", link: "/docs/about/TeamPage.md" },
+      { text: "补订《日记》跋", link: "/docs/about/Log.md" },
+      { text: "重梓《日记》纪事", link: "/docs/about/Log.md" },
+      { text: "编校人员职名", link: "/docs/about/TeamPage.md" },
     ],
   },
 ];
