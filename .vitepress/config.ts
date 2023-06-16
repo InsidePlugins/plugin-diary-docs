@@ -9,5 +9,8 @@ export default defineConfig({
   themeConfig: {
     nav,
     sidebar,
+  },
+  rewrites: {
+    'docs/src/Volume:number/:name.md': 'Volume:number/:name.md'
   }
 })
