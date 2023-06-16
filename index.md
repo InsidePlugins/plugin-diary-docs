@@ -1,7 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
+title: 概览
 hero:
   name: "PluginDiary"
   text: "补订《插件开发日记》"
