@@ -7,7 +7,7 @@ const members = [
     name: 'Rain_Effect',
     title: '监理',
     links: [
-      { icon: 'github', link: 'https://github.com/RainEffect.png' }
+      { icon: 'github', link: 'https://github.com/RainEffect' }
     ]
   },
   {
