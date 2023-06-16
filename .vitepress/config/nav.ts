@@ -37,8 +37,8 @@ export const nav = [
   {
     text: "跋辞",
     items: [
-      { text: "纪事", link: "/docs/about/ChangeLog" },
-      { text: "职名", link: "/docs/about/TeamPage" },
+      { text: "纪事", link: "/docs/about/ChangeLog.md" },
+      { text: "职名", link: "/docs/about/TeamPage.md" },
     ],
   },
 ];
