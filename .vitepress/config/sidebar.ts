@@ -115,7 +115,7 @@ export const sidebar = [
   {
     text: "跋辞",
     items: [
-      { text: "补订纪事", link: "/docs/about/ChangeLog.md" },
+      { text: "补订纪事", link: "/docs/about/Log.md" },
       { text: "补订者职名", link: "/docs/about/TeamPage.md" },
     ],
   },
