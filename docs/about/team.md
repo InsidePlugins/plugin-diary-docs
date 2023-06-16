@@ -1,7 +1,3 @@
----
-layout: page
----
-
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 
@@ -97,8 +93,8 @@ const members = [
 ]
 </script>
 
-# Our Team
+# PluginDiary 重修团队
 
-Say hello to our awesome team.
+探元珠于赤水，甲令星悬；扫落叶于青山，寅衷冰惕。
 
 <VPTeamMembers size="small" :members="members" />
