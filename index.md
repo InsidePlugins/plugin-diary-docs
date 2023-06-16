@@ -9,8 +9,8 @@ hero:
   actions:
     - theme: brand
       text: 开始学习吧！
-      link: https://plugindiary.pvpin.org/docs/src/Volume0/Preface_Original.html
+      link: /docs/src/Volume0/Preface_Original.html
     - theme: alt
       text: 补订叙引
-      link: https://plugindiary.pvpin.org/docs/src/Volume0/Preface.html
+      link: /docs/about/Postface.html
 ---
