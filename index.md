@@ -1,13 +1,9 @@
 ---
+# https://vitepress.dev/reference/default-theme-home-page
 layout: home
-title: Home
+
+hero:
+  name: "PluginDiary"
+  text: "补订《插件开发日记》"
+  tagline: 内制重裒，佚篇复合；翦榛集翠，焚艾留芝。
 ---
-
-<Home />
-
-<script setup lang="ts">
-/**
- * 这里路径 @theme 可以直接指向 .vitepress/theme 目录
- */
-import Home from '@theme/components/vp-home.vue'
-</script>

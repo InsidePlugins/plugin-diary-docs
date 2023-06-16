@@ -1,19 +1,47 @@
 {
-  "name": "docs",
+  "devDependencies": {
+    "vitepress": "^1.0.0-beta.2"
+  },
+  "name": "plugindiary",
+  "version": "1.0.0",
+  "description": "Edition of ThatRarityEG's PluginDiary Dev Tutorial.",
+  "main": "index.js",
+  "dependencies": {
+    "algoliasearch": "^4.17.2",
+    "ansi-sequence-parser": "^1.1.0",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "csstype": "^3.1.2",
+    "esbuild": "^0.17.19",
+    "estree-walker": "^2.0.2",
+    "focus-trap": "^7.4.3",
+    "jsonc-parser": "^3.2.0",
+    "magic-string": "^0.30.0",
+    "mark.js": "^8.11.1",
+    "markdown-it": "^13.0.1",
+    "minisearch": "^6.1.0",
+    "nanoid": "^3.3.6",
+    "picocolors": "^1.0.0",
+    "postcss": "^8.4.24",
+    "preact": "^10.15.1",
+    "rollup": "^3.25.1",
+    "search-insights": "^2.6.0",
+    "shiki": "^0.14.2",
+    "source-map-js": "^1.0.2",
+    "tabbable": "^6.1.2",
+    "vite": "^4.3.9",
+    "vitepress": "1.0.0-alpha.47",
+    "vscode-oniguruma": "^1.7.0",
+    "vscode-textmate": "^8.0.0",
+    "vue": "^3.3.4"
+  },
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "serve": "vitepress serve"
+    "serve": "vitepress serve",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
   },
-  "license": "MIT",
-  "dependencies": {
-    "markdown-it": "^13.0.1",
-    "vitepress": "1.0.0-alpha.47",
-    "vue": "^3.2.47"
-  },
-  "devDependencies": {
-    "fighting-design": "0.25.1",
-    "sass": "^1.54.9",
-    "vite": "^4.0.0"
-  }
+  "author": "InsidePlugins",
+  "license": "MIT"
 }
