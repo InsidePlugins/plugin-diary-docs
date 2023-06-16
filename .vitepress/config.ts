@@ -11,6 +11,7 @@ export default defineConfig({
     sidebar,
   },
   rewrites: {
-    'docs/src/Volume:number/:name.md': 'Volume:number/:name.md'
+    'docs/src/Volume:number/:name.md': 'Volume:number/:name.md',
+    'docs/about/:name.md': 'about/:name.md'
   }
 })

@@ -9,8 +9,8 @@ hero:
   actions:
     - theme: brand
       text: 开始学习吧！
-      link: /docs/src/Volume0/Preface_Original.html
+      link: /Volume0/Preface_Original.html
     - theme: alt
-      text: 补订叙引
-      link: /docs/about/Postface.html
+      text: 补订说明
+      link: /about/Postface.html
 ---
