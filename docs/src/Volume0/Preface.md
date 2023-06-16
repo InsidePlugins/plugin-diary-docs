@@ -9,3 +9,25 @@ ThatRarityEG 道席曾著有《PluginDiary 插件开发教程》，计入卷首�
 
 小马道席退出社区以后，教程日渐失修。[原始域名](https://plugin-diary.pages.dev)托管于 Cloudflare Pages ，尚能访问。[主要域名](https://plgdev.xuogroup.top)系她自费注册，已经过期，不能再解析到原始域名上。但是 MCBBS 上的[主题帖](https://www.mcbbs.net/thread-1163259-1-3.html)，仍把失效域名列于首位。多有坛友反馈链接无法访问。另外，她所用的图床停运，图片全无存档，并皆丢失。加以实例型教程中常有大段源码，从 Java 工程中辗转抄写至教程内时，偶有漏行。再加上 JDK 下载链接频繁更新，往往失效，又无人更新，因而询问的人摩肩接踵。这些提问者从不自行寻找信息、搜索前人问答，于是热心坛友只好一次次地重复解释，大费口舌。还好有南门阳德、主世界、生钻、笺舟等人，一同校勘，走访曾经见过教程原貌的读者，重新绘制丢失的图片，收集网络上散乱的问答，更新失效的链接。可惜教程采用 Cloudflare Pages 服务，只能读取她的[个人仓库](https://github.com/Andy-K-Sparklight/PluginDiary)生成网页内容。若无小马首肯，无人能藉由 Pull Request 修改个人仓库内容。她退出社区以后不再使用 GitHub 账号，因而经年以来，教程页面无所更新。此时我们方知孔子为何记叙郑人为命，开元以来士林为何称颂常杨之才。这都是因为大臣们通力合作，一起润色辞令。可是现在的私有仓库，没人能改动一个字。这显然与小马提倡的开源自由精神相悖。故此，我们建立了 InsidePlugins 小组，将个人仓库改为公开项目，便于多人协作。设立新的域名，以便传扬我们勘定的成果。虽说我们没有续麟之笔，不敢妄自扩写教程，但仍然可以纠正一些因时移势迁而失效的内容。虽说我们没有房玄龄、杜如晦那样的才华，但仍然可以集思广益，上承小马的坠绪，让《PluginDiary 插件开发教程》辉映万年！
 :::
+
+# 版权信息
+
+《PluginDiary 插件开发教程》，又名《插件开发日记》，作者系 ThatRarityEG 小马，GitHub 曾名 Andy-K-Sparklight 。原教程采用 Docsify 组织其内容，现予替换为 Vitepress 。原教程文字内容适用 [CC BY 3.0 协议](https://creativecommons.org/licenses/by/3.0/cn/)，本教程对文字内容作了校订，按律沿用 [CC BY 3.0 协议](https://creativecommons.org/licenses/by/3.0/cn/)。
+
+# 链接会录
+
+[ThatRarityEG 的个人主页](https://www.mcbbs.net/home.php?mod=space&uid=3281025)
+
+[PluginDiary 的发布帖](https://www.mcbbs.net/thread-1163259-1-1.html)
+
+[PluginDiary 的旧入口（曾被小马推荐，但域名已到期）](https://plgdev.xuogroup.top)
+
+[PluginDiary 的旧入口（今日尚且有效，但内容已失修）](https://plugin-diary.pages.dev)
+
+[PluginDiary 的旧 GitHub 仓库（教程正文部分）](https://github.com/Andy-K-Sparklight/PluginDiary)
+
+[PluginDiary 的旧 GitHub 仓库（代码示例部分）](https://github.com/Andy-K-Sparklight/PluginDiaryCode)
+
+[InsidePlugins 成员列表](https://plugindiary.pvpin.org/docs/about/TeamPage.html)
+
+[InsidePlugins 卷首页面](https://plugindiary.pvpin.org/docs/src/Volume0/Preface.html)
