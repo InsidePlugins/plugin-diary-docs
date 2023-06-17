@@ -15,12 +15,12 @@ export default defineConfig({
       prev: 'this.prevPage();',
       next: 'this.nextPage();'
     },
+    lastUpdatedText: '本页更新于：',
+    outline: false,
+    siteTitle: 'PluginDiary',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/InsidePlugins/plugin-diary-docs' }
     ],
-    lastUpdatedText: '本页更新于：',
-    outline: false,
-    siteTitle: 'PluginDiary'
   },
   rewrites: {
     'docs/src/Volume:number/:name.md': 'Volume:number/:name.md',
