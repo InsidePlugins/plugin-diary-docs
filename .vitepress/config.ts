@@ -6,6 +6,7 @@ import { sidebar } from "./sidebar";
 export default defineConfig({
   titleTemplate: ':title - 补订《插件开发日记》',
   description: "补订《插件开发日记》",
+  lastUpdated: true,
   themeConfig: {
     nav,
     sidebar,
@@ -14,6 +15,9 @@ export default defineConfig({
       prev: 'this.prevPage();',
       next: 'this.nextPage();'
     },
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/InsidePlugins/plugin-diary-docs' }
+    ],
     lastUpdatedText: '本页更新于：',
     outline: false,
     siteTitle: 'PluginDiary'
