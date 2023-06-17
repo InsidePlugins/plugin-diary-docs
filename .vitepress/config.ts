@@ -15,7 +15,7 @@ export default defineConfig({
       prev: 'this.prevPage();',
       next: 'this.nextPage();'
     },
-    lastUpdatedText: '本页更新于：',
+    lastUpdatedText: '本页更新于',
     outline: false,
     siteTitle: 'PluginDiary',
     socialLinks: [
