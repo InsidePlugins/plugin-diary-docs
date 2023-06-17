@@ -5,3 +5,16 @@
     /* 应用 fira code 字体到代码 */
     --vp-font-family-mono: ui-monospace, "Fira Code", SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+
+.vp-doc h2 {
+    /* 
+        docsify 渲染页面时，在二级标题 <h2> 下方自动添加水平分割线。
+        Vitepress 则在二级标题 <h2> 上方添加分割线，也使用有色 border 实现 <hr> 效果。
+        ThatRarityEG 原文中的 --- 分割线往往在段尾，与标题的分割线重复。
+        现将 Vitepress 的标题分割线挪至下方，模拟 docsify 效果。
+     */
+    padding-top: 0px;
+    padding-bottom: 24px;
+    border-top: 0px;
+    border-bottom: 1px solid var(--vp-c-divider);
+}
