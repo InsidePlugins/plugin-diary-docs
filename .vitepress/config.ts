@@ -6,6 +6,7 @@ import { sidebar } from "./sidebar";
 export default defineConfig({
   titleTemplate: ':title - 补订《插件开发日记》',
   description: "补订《插件开发日记》",
+  lastUpdated: true,
   themeConfig: {
     nav,
     sidebar,
