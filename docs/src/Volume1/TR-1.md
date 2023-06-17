@@ -28,25 +28,23 @@
 
 ## JDK 11
 
-首先，下载 [这个文件](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/11/jdk/x64/windows/OpenJDK11U-jdk_x64_windows_hotspot_11.0.15_10.msi)。
+首先，下载 [这个文件](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/11/jdk/x64/windows/OpenJDK11U-jdk_x64_windows_hotspot_11.0.19_7.msi)。
 
-这是 **AdoptOpenJDK**，是自由软件，如果只是使用的话不存在版权问题，大家尽管使用~
+这是 **Adoptium**，是自由软件，如果只是使用的话不存在版权问题，大家尽管使用~
 
-下载完成后双击进行安装，安装过程很简单，一路单击「Next」即可。中间有个地方需要勾选「I accept the terms in the License Agreement」，勾选即可。
+下载完成后双击进行安装，安装过程很简单，一路单击「下一步」即可。
 
 到这个窗口时，就要小心了！
 
-![SETUP.png](https://s2.loli.net/2022/04/15/Fck5nB7vTe1tJZp.png)
+![SETUP.png](https://s2.loli.net/2023/06/17/j7OHWNQJ2mIdPST.png)
 
 你要这样做：
 
-![SELECT.png](https://s2.loli.net/2022/04/15/fqN4XJ6OpcUZzsh.png)
+![SELECT.png](https://s2.loli.net/2023/06/17/m3KIBxRwjGiqJHb.png)
 
 *这让安装程序自动设置了环境变量，方便后续操作。*
 
-有鉴于图床失效、原图丢失，上图系定稿后再行修补，图文未必贴合。
-
-单击「JDK with Hotspot」左边的图标，单击「Entire feature……」，单击后，就可以单击「Next」继续了。安装很快就完成了。
+单击「JDK with Hotspot」左边的图标，单击「将安装在本地硬盘上」，单击后，就可以单击「下一步」继续了。安装很快就完成了。
 
 ## 服务端
 
