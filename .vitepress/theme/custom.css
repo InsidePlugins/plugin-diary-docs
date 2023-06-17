@@ -11,6 +11,20 @@
         "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.vp-doc blockquote {
+    background-color: rgb(247, 247, 247);
+    border-left-color: rgb(11, 135, 218);
+    border-left-style: solid;
+    border-left-width: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.vp-doc blockquote>p {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
 .vp-doc h1 {
     /* ThatRarityEG 原文字体较大。 */
     font-size: 38px;
@@ -41,7 +55,7 @@
     border-radius: 0.25rem;
     padding-top: 6px;
     padding-bottom: 6px;
-    font-size: 16px
+    font-size: 16px;
 }
 
 .btn-unconfirmed:hover {
@@ -64,7 +78,7 @@
     border-radius: 0.25rem;
     padding-top: 6px;
     padding-bottom: 6px;
-    font-size: 16px
+    font-size: 16px;
 }
 
 .btn-confirmed:hover {
