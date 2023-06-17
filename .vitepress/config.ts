@@ -14,6 +14,9 @@ export default defineConfig({
       prev: 'this.prevPage();',
       next: 'this.nextPage();'
     },
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/InsidePlugins/plugin-diary-docs' }
+    ],
     lastUpdatedText: '本页更新于：',
     siteTitle: 'PluginDiary'
   },
