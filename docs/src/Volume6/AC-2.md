@@ -439,9 +439,9 @@ public Mail getMail();
 
 战斗不费吹灰之力，很简单，但这场战役很重要，因为我们已经具备了开发一个完整的、可应用的、可扩展的插件的能力。按下按钮吧，这是属于你的胜利。
 
-<button type='button' class="btn btn-info" style="width:100%;transition:500ms;" onclick="$('#hideEle').show();this.onclick=function(){};this.className='btn btn-success';this.innerHTML=this.innerHTML.replace('question','check').replace('确认行动结束','恭喜！');"><i class="fa fa-question"></i> 确认行动结束</button>
+<button type='button' class="btn-unconfirmed" style="width:100%;transition:500ms;" onclick="this.innerHTML=' ✓ 恭喜！';document.getElementById('hiddenEle').style.display = 'block';this.className='btn-confirmed';this.onclick=function(){};"> ❔ 确认行动结束 </button>
 
-<div id='hideEle' style='display:none;'>
+<div id='hiddenEle' style='display:none;'>
 
 > 行动结果：胜利
 
