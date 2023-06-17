@@ -9,11 +9,13 @@ export default defineConfig({
   themeConfig: {
     nav,
     sidebar,
+    aside: false,
     docFooter: {
       prev: 'this.prevPage();',
       next: 'this.nextPage();'
     },
     lastUpdatedText: '本页更新于：',
+    outline: false,
     siteTitle: 'PluginDiary'
   },
   rewrites: {
