@@ -23,10 +23,13 @@ export default defineConfig({
     siteTitle: 'PluginDiary',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/InsidePlugins/plugin-diary-docs' }
-    ],
+    ]
   },
   appearance: false,
   lastUpdated: true,
+  markdown: {
+    theme: 'css-variables'
+  },
   rewrites: {
     'docs/Volume:number/:name.md': 'Volume:number/:name.md',
     'docs/Postface/:name.md': 'Postface/:name.md'

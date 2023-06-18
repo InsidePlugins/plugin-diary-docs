@@ -1,18 +1,18 @@
 :root {
     /* 应用 ThatRarityEG 原文的字体到教程代码。 */
     --vp-font-family-mono: Inconsolata, Consolas, Menlo, Monaco, "Andale Mono WT",
-    "Andale Mono", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
-    "Courier New", Courier, monospace;
-    
+        "Andale Mono", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+        "Courier New", Courier, monospace;
+
+    /* 增大代码字号。 */
+    --vp-code-font-size: 0.95em;
+
     /* 调整背景颜色。 */
     --vp-code-tab-bg: #E3E3E3;
     --vp-code-tab-text-color: #333333;
     --vp-code-block-color: rgb(51, 51, 51);
     --vp-code-block-bg: rgb(247, 247, 247);
     --vp-c-text-code: #333333;
-    
-    /* 增大代码字号。 */
-    --vp-code-font-size: 0.95em;
 
     /* 复制按钮改浅。 */
     --vp-code-copy-code-bg: #808080;
@@ -29,21 +29,9 @@
 }
 
 .vp-doc :not(pre)>code {
-    /* 小段代码，背景改浅，调整字体。 */
-    font-family: Inconsolata, Consolas, Menlo, Monaco, "Andale Mono WT",
-        "Andale Mono", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
-        "Courier New", Courier, monospace;
+    /* 小段代码，背景改深。 */
     background-color: #E3E3E3;
     color: #333333;
-}
-
-.vp-doc [class*=language-] pre {
-    /* 大段代码，背景改浅，调整字体。 */
-    font-family: Inconsolata, Consolas, Menlo, Monaco, "Andale Mono WT",
-        "Andale Mono", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
-        "Courier New", Courier, monospace;
-    background-color: rgb(247, 247, 247);
-    color: rgb(51, 51, 51);
 }
 
 .vp-doc [class*=language-]>span.lang {
@@ -52,4 +40,21 @@
         "Andale Mono", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
         "Courier New", Courier, monospace;
     color: rgb(51, 51, 51);
+}
+
+.vp-doc .custom-block code {
+    /* 容器内代码取消加粗。 */
+    font-weight: 400;
+}
+
+:root {
+    /* 代码高亮。 */
+    --shiki-color-text: #333333;
+    --shiki-color-background: #333333;
+    --shiki-token-constant: #0077AA;
+    --shiki-token-comment: #6E8090;
+    --shiki-token-keyword: #0077AA;
+    --shiki-token-function: #DD4A68;
+    --shiki-token-string-expression: #669900;
+    --shiki-token-punctuation: #333333;
 }
