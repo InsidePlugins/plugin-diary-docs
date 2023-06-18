@@ -13,3 +13,25 @@
 十五日晨，Moe_Miner 调试 Github Actions 毕。自是，更新 [plugin-diary-docs](https://github.com/InsidePlugins/plugin-diary-docs) 仓库后，[https://docs.pvpin.org/plugin-diary/](https://docs.pvpin.org/plugin-diary/) 上内容随之而变。
 
 十六日晨，Moe_Miner 改域名作 [plugindiary.pvpin.org](https://plugindiary.pvpin.org/) ，仍同步 [plugin-diary-docs](https://github.com/InsidePlugins/plugin-diary-docs) 仓库，一应推送流程不变。
+
+十七日晚，William_Shi 修改 CSS 文件，俾使 Blockquote 引文渲染后类似 docsify 引文。
+
+十八日晨，William_Shi 修改 CSS 文件，俾使 Vitepress 所支持的 Markdown-It 格式中以 ::: 包裹的自定义容器渲染后类似 docsify 中 !> 和 ?> 容器。夜，William_Shi 修改 CSS 文件，俾使代码高亮颜色近于 docsify 所用之 Prism 高亮系统，并调整代码块背景颜色、复制按钮颜色。又复原“事件模拟”及“确认行动结束”两功能。至斯，页面样式大备，与原站难分真假。
+
+# 链接会录
+
+《补订<日记>》的入口：[https://plugindiary.pvpin.org](https://plugindiary.pvpin.org)
+
+《补订<日记>》的 GitHub 仓库：[https://github.com/InsidePlugins/plugin-diary-docs](https://github.com/InsidePlugins/plugin-diary-docs)
+
+ThatRarityEG 的个人主页：[https://www.mcbbs.net/home.php?mod=space&uid=3281025](https://www.mcbbs.net/home.php?mod=space&uid=3281025)
+
+PluginDiary 的发布帖：[https://www.mcbbs.net/thread-1163259-1-1.html](https://www.mcbbs.net/thread-1163259-1-1.html)
+
+PluginDiary 的旧入口（曾被小马推荐，但域名已到期）：[https://plgdev.xuogroup.top](https://plgdev.xuogroup.top)
+
+PluginDiary 的旧入口（今日尚且有效，但内容已失修）：[https://plugin-diary.pages.dev](https://plugin-diary.pages.dev)
+
+PluginDiary 的旧 GitHub 仓库（教程正文部分）：[https://github.com/Andy-K-Sparklight/PluginDiary](https://github.com/Andy-K-Sparklight/PluginDiary)
+
+PluginDiary 的旧 GitHub 仓库（代码示例部分）：[https://github.com/Andy-K-Sparklight/PluginDiaryCode](https://github.com/Andy-K-Sparklight/PluginDiaryCode)
