@@ -11,21 +11,6 @@
         "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.vp-doc blockquote {
-    background-color: rgb(247, 247, 247);
-    border-left-color: rgb(11, 135, 218);
-    border-left-style: solid;
-    border-left-width: 4px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-
-.vp-doc blockquote>p {
-    color: black;
-    padding-top: 6px;
-    padding-bottom: 6px;
-}
-
 .vp-doc h1 {
     /* ThatRarityEG 原文字体较大。 */
     font-size: 38px;
@@ -48,48 +33,19 @@
     font-weight: 400;
 }
 
-.btn-unconfirmed {
-    /* 确认行动结束按钮。 */
-    color: #fff;
-    background-color: #17a2b8;
-    border-color: #17a2b8;
-    border-radius: 0.25rem;
+.vp-doc blockquote {
+    /* 引文用蓝色边框，浅灰色背景。 */
+    background-color: rgb(247, 247, 247);
+    border-left-color: rgb(11, 135, 218);
+    border-left-style: solid;
+    border-left-width: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.vp-doc blockquote>p {
+    /* 引文段落间距增大，都用纯黑色文字。 */
+    color: black;
     padding-top: 6px;
     padding-bottom: 6px;
-    font-size: 16px;
-}
-
-.btn-unconfirmed:hover {
-    /* 光标悬浮时加深颜色。 */
-    color: #fff;
-    background-color: #138496;
-    border-color: #117a8b;
-}
-
-.btn-unconfirmed:focus {
-    /* 点按后显示阴影。 */
-    box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5);
-}
-
-.btn-confirmed {
-    /* 恭喜按钮。 */
-    color: #fff;
-    background-color: #28a745;
-    border-color: #28a745;
-    border-radius: 0.25rem;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    font-size: 16px;
-}
-
-.btn-confirmed:hover {
-    /* 光标悬浮时加深颜色。 */
-    color: #fff;
-    background-color: #218838;
-    border-color: #1e7e34;
-}
-
-.btn-confirmed:focus {
-    /* 点按后显示阴影。 */
-    box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
 }
