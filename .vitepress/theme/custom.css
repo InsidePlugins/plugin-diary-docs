@@ -19,6 +19,7 @@
     /* ThatRarityEG 原文字体较大。 */
     font-size: 38px;
     font-weight: 400;
+    color: #333333;
 }
 
 .vp-doc h2 {
@@ -35,6 +36,7 @@
     /* ThatRarityEG 原文字体较大。 */
     font-size: 28px;
     font-weight: 400;
+    color: #333333;
 }
 
 .vp-doc blockquote {
