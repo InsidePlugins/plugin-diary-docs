@@ -4,9 +4,8 @@ import { sidebar } from "./sidebar";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  titleTemplate: ':title - 补订《插件开发日记》',
   description: "补订《插件开发日记》",
-  lastUpdated: true,
+  titleTemplate: ':title - 补订《插件开发日记》',
   themeConfig: {
     nav,
     sidebar,
@@ -15,6 +14,10 @@ export default defineConfig({
       prev: 'this.prevPage();',
       next: 'this.nextPage();'
     },
+    editLink: {
+      pattern: 'https://github.com/InsidePlugins/plugin-diary-docs/edit/master/:path',
+      text: '编辑本页内容'
+    },
     lastUpdatedText: '本页更新于',
     outline: false,
     siteTitle: 'PluginDiary',
@@ -22,8 +25,10 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/InsidePlugins/plugin-diary-docs' }
     ],
   },
+  appearance: false,
+  lastUpdated: true,
   rewrites: {
-    'docs/src/Volume:number/:name.md': 'Volume:number/:name.md',
-    'docs/about/:name.md': 'about/:name.md'
+    'docs/Volume:number/:name.md': 'Volume:number/:name.md',
+    'docs/Postface/:name.md': 'Postface/:name.md'
   }
 })

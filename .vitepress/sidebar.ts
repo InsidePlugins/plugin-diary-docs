@@ -114,9 +114,9 @@ export const sidebar = [
   {
     text: "跋辞",
     items: [
-      { text: "补订《日记》跋", link: "/about/Postface.md" },
-      { text: "重梓《日记》纪事", link: "/about/Log.md" },
-      { text: "编校人员职名", link: "/about/TeamPage.md" },
+      { text: "补订《日记》跋", link: "/Postface/Postface.md" },
+      { text: "重梓《日记》纪事", link: "/Postface/Log.md" },
+      { text: "编校人员职名", link: "/Postface/TeamPage.md" },
     ],
   },
 ];
