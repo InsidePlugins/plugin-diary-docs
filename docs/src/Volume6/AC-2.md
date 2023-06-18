@@ -96,7 +96,7 @@ public interface ILoginManager {
 
 可以看到，功能非常简单（因为 HarmonyAuth SMART 的对外交流方式主要是 CLI 的钩子），但 JavaDocs 很多。
 
-!> **认真编写 JavaDocs**！<br/>你的实现无法被其它开发者看到，他们不能通过分析源代码来了解这个方法做什么，唯一的参考就是 JavaDocs，你不会希望经历那种对着写得不明不白的 JavaDocs 时，怎么想都想不明白的那种体验的！
+!> **认真编写 JavaDocs**！<br/>你的实现无法被其它开发者看到，外人不能通过分析源代码来了解这个方法是做什么的，唯一的参考就是 JavaDocs，你不会希望经历那种对着写得不明不白的 JavaDocs 时，怎么想都想不明白的那种体验的！
 
 然后我们再创建一个 `IStoredDataManager` 用于修改已经存储的数据。
 
@@ -283,9 +283,9 @@ public class APIStoredDataManager implements IStoredDataManager {
 
 嗯……我们现在面对的问题是，**如何在开发者只有接口，不知道它的实现类的情况下，获得该接口对应的对象**。
 
-解决这个问题的方法就是利用 `RegisteredServiceProvider`。Bukkit 的这个机制允许我们将接口和实现「分开」，只需要把接口交给其他开发者，开发者通过 `RegisteredServiceProvider` 重新获得对应的类。
+解决这个问题的方法就是利用 `RegisteredServiceProvider`。Bukkit 的这个机制允许我们将接口和实现「分开」，只需要把接口交给其它开发者，开发者通过 `RegisteredServiceProvider` 重新获得对应的类。
 
-?> **到底怎么回事**？<br/>（为了方便表述，下面我们将「依赖你的插件的那个插件」称为「X 插件」）<br/>X 插件的开发者们只有接口（`IStoredDataManager` 等），**没有它们对应的实现**（`APIStoredDataManager`），因此他们无法通过 `new` 创建一个新的对象。<br/>X 插件不知道实现的类是哪一个，但 Bukkit 应该知道，因为 X 插件需要的实现在我们的插件中，而我们的插件正是由 Bukkit 加载的。<br/>`RegisteredServiceProvider` 做的事无非就是「牵线」，其它插件提供给它一个需求（接口），它就返回注册好的一个对象，**代替了 `new` 的工作**，仅此而已。<br/>另外，API 的本质实际上就是要将「对外开放的一部分」分离出去，因此在你的 API 中应该**只包含你希望被其它插件使用的内容**。
+?> **到底怎么回事**？<br/>（为了方便表述，下面我们将「依赖你的插件的那个插件」称为「X 插件」）<br/>X 插件的开发者们只有接口（`IStoredDataManager` 等），**没有它们对应的实现**（`APIStoredDataManager`），因此无法通过 `new` 创建一个新的对象。<br/>X 插件的开发者们不知道实现的类是哪一个，但 Bukkit 应该知道，因为 X 插件需要的实现在我们的插件中，而我们的插件正是由 Bukkit 加载的。<br/>`RegisteredServiceProvider` 做的事无非就是「牵线」，其它插件提供给它一个需求（接口），它就返回注册好的一个对象，**代替了 `new` 的工作**，仅此而已。<br/>另外，API 的本质实际上就是要将「对外开放的一部分」分离出去，因此在你的 API 中应该**只包含你希望被其它插件使用的内容**。
 
 那我们需要在主类的 `onLoad` 方法中注册这两个服务，注册服务很简单：
 

@@ -116,7 +116,7 @@ public class HelloWorld extends JavaPlugin {
 
 首先大家把目光放到 `import` 上。还记得吗？我们说过有些代码已经由别人为我们写好了，那叫什么？对，那是**轮子**，`import` 的意思是「导入」，也就是告诉 Java：「我们现在要用这个 `JavaPlugin` 啦，请你帮我们找一下。」
 
-这里我们给出的是完整的类路径。因为我们要导入的这个类并不在我们自己的空间中，Bukkit 的开发人员使用了名为 `org.bukkit` 的包，Bukkit 的分类工作很仔细，他们精心地将我们需要的类放在了 `org.bukkit.plugin.java` 下。
+这里我们给出的是完整的类路径。因为我们要导入的这个类并不在我们自己的空间中，Bukkit 的开发人员使用了名为 `org.bukkit` 的包，Bukkit 的分类工作很仔细，开发者们精心地将我们需要的类放在了 `org.bukkit.plugin.java` 下。
 
 接下来我们来看 `extends` 关键字。这表示「继承」。什么是继承呢？
 
