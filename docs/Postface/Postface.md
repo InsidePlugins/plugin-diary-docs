@@ -14,11 +14,48 @@ ThatRarityEG 道席曾著[《PluginDiary 插件开发教程》](https://www.mcbb
 
 # 版权信息
 
-《PluginDiary 插件开发教程》文字部分，全部适用 [CC BY 3.0 协议](https://creativecommons.org/licenses/by/3.0/cn/)。按协议要求，首先应当为原作者署名。教程文字内容原作者系 ThatRarityEG 。另有 Katorly 和 William_Shi 两人，曾向该教程的 GitHub 仓库发送过 Pull Request ，已被合并，也在原作者之列。按协议要求，其次应当注明是否修改原文。InsidePlugins 小组成员对文字内容有所删改，修改了原文。《补订<插件开发日记>》全部文字内容按律沿用 [CC BY 3.0 协议](https://creativecommons.org/licenses/by/3.0/cn/)。如欲再行修改，须遵守一应条款，同样使用 [CC BY 3.0 协议](https://creativecommons.org/licenses/by/3.0/cn/)分发新作。
+「本教程」指 https://plugindiary.pvpin.org 网站下的全部 HTML 页面以及 https://github.com/InsidePlugins/plugin-diary-docs 所表示的 Git 仓库下的所有 Markdown 文件。链接到上述 HTML 页面中的样式表、字体、JavaScript 脚本等内容和上述 Git 仓库中非 Markdown 文件不属于「本教程」，它们适用单独的许可条款。「本站点」指 https://plugindiary.pvpin.org 网站下的全部 HTML 页面。
 
-《PluginDiary 插件开发教程》代码部分，ThatRarityEG 已经明确授予了使用、复制、修改、再分发以及相关的权利，无需署名或申请额外的许可。《补订<插件开发日记>》沿用之，同样授予读者使用、复制、修改、再分发以及相关权利，无需别作署名、申请。但对于某些代码，ThatRarityEG 注明其按照 [GNU 通用公共许可证（第三版）](https://www.gnu.org/licenses/gpl-3.0.html)分发。所谓“某些代码”，指 6-3 中提及的 RarityCommons 和 AC-3-1 中提及的 CuteCoin 两段代码。按 [GPL3](https://www.gnu.org/licenses/gpl-3.0.html) 协议内容，相关代码必须沿用 [GPL3](https://www.gnu.org/licenses/gpl-3.0.html) 协议分发。《补订<插件开发日记>》对这两段代码没有作任何改动。
+「原教程」指 https://plgdev.xuogroup.top/ 网站下的全部 HTML 页面以及 https://github.com/Andy-K-Sparklight/PluginDiary/ 所表示的 Git 仓库下的所有 Markdown 文件。链接到上述 HTML 页面中的样式表、字体、JavaScript 脚本等内容和上述 Git 仓库中非 Markdown 文件不属于「原教程」之内。「原站点」指 https://plgdev.xuogroup.top/ 网站下的全部 HTML 页面。本教程是在原教程基础之上的二次创作。
 
-《PluginDiary 插件开发教程》图片部分，分为游戏截图与自制图片两种。游戏截图来自于游戏《Minecraft: Java Edition》（《我的世界：Java 版》），根据其开发公司 Mojang Studios AB 在许可条款中的[相应说明](https://account.mojang.com/terms?ref=ft#brand)，可以将图片上传到第三方图片网站，并链接到其它站点。自制图片，虽然 ThatRarityEG 注明“由本教程作者制作”，然而由于图床停运、所有原图全部丢失，她当初制作的图片已经不存。所有图片都是 William_Shi 于二〇二二年初重新制作的，可以参见 [Pull Request #3](https://github.com/Andy-K-Sparklight/PluginDiary/pull/3) 。作为 InsidePlugins 小组成员，William_Shi 授权 InsidePlugins 转载这些图片到其网站上。
+以下信息对「本教程」中所有内容适用。
+
+原教程文字部分，大都适用[知识共享署名 3.0 中国大陆许可协议](https://creativecommons.org/licenses/by/3.0/cn/)。本教程既然修改、分发了原教程文字内容，则需遵守协议。按协议要求，首先应当为原作者署名。原教程文字内容主要作者系 ThatRarityEG 。另有 Katorly 和 William_Shi 两人，曾向原教程的 GitHub 仓库发送过 Pull Request ，已被合并，也在作者之列。InsidePlugins 小组成员对文字内容有所删改，修订了原教程的文字内容。本教程全部文字内容按律沿用[知识共享署名 3.0 中国大陆许可协议](https://creativecommons.org/licenses/by/3.0/cn/)。如其它人欲在本教程基础上修改文字内容，须遵守该协议一应条款，同样使用[知识共享署名 3.0 中国大陆许可协议](https://creativecommons.org/licenses/by/3.0/cn/)分发新作。
+
+![CC-BY-3.0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)
+
+原教程代码部分，任何人均有使用、复制、修改、再分发以及相关的权利，无需署名或向作者申请额外的许可。此权利系原教程作者所明确授予。本教程沿用之，同样授予读者使用、复制、修改、再分发以及相关权利，无需别作署名、申请。但原教程作者注明，其文中的某些代码按照 [GNU 通用公共许可证（第三版）](https://www.gnu.org/licenses/gpl-3.0.html)分发。所谓“某些代码”，指 6-3 中提及的 RarityCommons 和 AC-3-1 中提及的 CuteCoin 两段代码。按 [GPL3](https://www.gnu.org/licenses/gpl-3.0.html) 协议内容，相关代码必须沿用 [GPL3](https://www.gnu.org/licenses/gpl-3.0.html) 协议分发。本教程对这两段代码没有作任何改动，也沿用 [GPL3](https://www.gnu.org/licenses/gpl-3.0.html) 协议。
+
+原教程图片部分，作者言其“由本教程作者制作”，但对许可协议语焉未详。由于原教程图床停运、所有原图全部丢失，主要作者 ThatRarityEG 制作的图片都不存。原教程站点上的现存图片多为 William_Shi 于二〇二二年初重新制作并提交至原教程 Git 仓库，可参见 [Pull Request #3](https://github.com/Andy-K-Sparklight/PluginDiary/pull/3) 。作为 InsidePlugins 小组成员，William_Shi 授权 InsidePlugins 转载这些图片到本教程网站上。故而本教程上全部游戏截图由本教程作者制作。
+
+Minecraft® 是瑞典 Mojang Studios AB 公司的商标。本教程不是 Minecraft 官方产品，不是来自 Minecraft 并且未经 Minecraft 认可。本教程与 Mojang Studios AB  没有关联，也不是来自 Mojang Studios AB。本教程与美国 Microsoft（微软）公司没有关联。
+
+本教程与 GitHub 公司没有关联。
+
+My Little Pony®、Friendship Is Magic™ 和 Equestria Girls™ 是美国 Hasbro（孩之宝）公司的商标或注册商标。本教程与 Hasbro 公司没有关联。
+
+Java™ 是美国 Oracle（甲骨文）公司的商标。本教程与 Oracle 公司没有关联。
+
+Eclipse® 是 Eclipse Foundation 的商标。本教程与 Eclipse Foundation 没有关联。
+
+本教程与 JetBrains s.r.o. 没有关联。
+
+本教程仅用于学习交流，其中任何内容均未被也不将被用于盈利。
+
+「网易云音乐」服务是广州网易计算机系统有限公司提供的。该服务属于广州网易计算机系统有限公司。本教程的作者不能亦不会保证该服务的正常运行。
+
+Spigot 服务端分发/下载服务是由 [GetBukkit 组织](https://getbukkit.org/) 提供的。
+
+本教程中提供的开发工具 Adoptium、IntelliJ IDEA Community 以及使用到的软件 MySQL Community 等均是自由软件或在其许可条款中允许了我们将其链接到本站点。所有的链接都指向原始站点，**本站点没有分发或存储任何相关文件**。
+
+部分内容出于教学目的选自网络，现在此注明出处：
+
+- [RUNOOB 菜鸟教程](https://www.runoob.com)，已在 [此处](https://www.runoob.com/disclaimer) 得到了普适的授权。
+- [Bukkit Development Note](https://bdn.tdiant.net)，其许可协议已附在其首页。
+- [Paper-API JavaDocs](https://papermc.io/javadocs/paper/1.16/overview-summary.html)，该网站的内容采用 MIT 许可证进行授权，见 [此处](https://github.com/PaperMC/papermc.io/blob/master/LICENSE)。
+- [Hanbing‘s Blog](https://hanbings.github.io/2020/08/17/%E7%A5%9E%E5%A5%87%E7%9A%84Bukkit%E7%AC%94%E8%AE%B0-%E6%8F%92%E4%BB%B6%E5%AF%B9%E5%85%B6%E4%BB%96%E6%8F%92%E4%BB%B6%E7%9A%84%E8%BD%AF%E4%BE%9D%E8%B5%96/)，由于没有任何版权声明，我们仅以学习目的引用少量内容，且均注明了出处。
+- [中文 Minecraft Wiki 镜像](https://wiki.biligame.com/mc/Minecraft_Wiki)，由于要求相同方式共享，与我们的许可不兼容，因此仅链接到本站而不进行任何引用。
+- [GNU 官方站点](https://www.gnu.org)，该站点使用 [CC-BY-ND 4.0 知识共享许可证](https://creativecommons.org/licenses/by-nd/4.0/) 授权。
 
 # 链接会录
 
