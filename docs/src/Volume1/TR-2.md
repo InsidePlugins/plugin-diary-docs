@@ -295,4 +295,3 @@ Bukkit 在读取我们的插件时，会在这部字典里面查找 `name`、`ma
 好啦，按照我的习惯，每一章结束时，我都要放一首歌，这次也不例外，请听一听，这会给你带来不一样的感受的……
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&id=430297476&auto=0&height=66"></iframe>
-
