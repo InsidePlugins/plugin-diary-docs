@@ -1,0 +1,8 @@
+.vp-doc :not(pre)>code {
+    /* 非用 ``` 包裹的大段代码，背景加深，调整字体。 */
+    font-family: Inconsolata, Consolas, Menlo, Monaco, "Andale Mono WT",
+        "Andale Mono", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+        "Courier New", Courier, monospace;
+    background-color: #E3E3E3;
+    color: #333333;
+}

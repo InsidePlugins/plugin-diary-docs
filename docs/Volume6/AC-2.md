@@ -96,7 +96,7 @@ public interface ILoginManager {
 
 可以看到，功能非常简单（因为 HarmonyAuth SMART 的对外交流方式主要是 CLI 的钩子），但 JavaDocs 很多。
 
-::: danger **认真编写 JavaDocs**！
+::: danger <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' transform='scale(0.6)' fill='%23fff'%3E%3Cpath d='M10 14C10 15.1 9.1 16 8 16 6.9 16 6 15.1 6 14 6 12.9 6.9 12 8 12 9.1 12 10 12.9 10 14Z'/%3E%3Cpath d='M10 1.6C10 1.2 9.8 0.9 9.6 0.7 9.2 0.3 8.6 0 8 0 7.4 0 6.8 0.2 6.5 0.6 6.2 0.9 6 1.2 6 1.6 6 1.7 6 1.8 6 1.9L6.8 9.6C6.9 9.9 7 10.1 7.2 10.2 7.4 10.4 7.7 10.5 8 10.5 8.3 10.5 8.6 10.4 8.8 10.3 9 10.1 9.1 9.9 9.2 9.6L10 1.9C10 1.8 10 1.7 10 1.6Z'/%3E%3C/svg%3E" style="background-color:#DA0B50; clip-path: circle();" width="24px" height="24px"> **认真编写 JavaDocs**！
 你的实现无法被其它开发者看到，外人不能通过分析源代码来了解这个方法是做什么的，唯一的参考就是 JavaDocs，你不会希望经历那种对着写得不明不白的 JavaDocs 时，怎么想都想不明白的那种体验的！
 :::
 
@@ -155,7 +155,7 @@ public interface IStoredDataManager {
 
 功能同样很简单。
 
-::: info **不止于接口**
+::: info <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' transform='scale(0.6)' fill='%23fff'%3E%3Cpath d='M9.1 0C10.2 0 10.7 0.7 10.7 1.6 10.7 2.6 9.8 3.6 8.6 3.6 7.6 3.6 7 3 7 2 7 1.1 7.7 0 9.1 0Z'/%3E%3Cpath d='M5.8 16C5 16 4.4 15.5 5 13.2L5.9 9.1C6.1 8.5 6.1 8.2 5.9 8.2 5.7 8.2 4.6 8.6 3.9 9.1L3.5 8.4C5.6 6.6 7.9 5.6 8.9 5.6 9.8 5.6 9.9 6.6 9.5 8.2L8.4 12.5C8.2 13.2 8.3 13.5 8.5 13.5 8.7 13.5 9.6 13.2 10.4 12.5L10.9 13.2C8.9 15.2 6.7 16 5.8 16Z'/%3E%3C/svg%3E" style="background-color:#0B87DA; clip-path: circle();" width="24px" height="24px"> **不止于接口**
 虽然这里我们用的是接口，但 API 中不仅可以使用接口，还可以使用一般的类，抽象类等等。API 从本质上来说只是从插件本体中剥离下来的「一层」而已。API **本身也是一种类库**，因此自然可以使用类。
 
 某种意义上来说，插件本体实际上也相当于一个「臃肿的」API。实际上我们已经见到过了，是什么呢？「spigot-1.16.5」嘛。虽然它是一个完整的服务端，但实际上它也「相当于」服务端的 API。
@@ -291,7 +291,7 @@ public class APIStoredDataManager implements IStoredDataManager {
 
 解决这个问题的方法就是利用 `RegisteredServiceProvider`。Bukkit 的这个机制允许我们将接口和实现「分开」，只需要把接口交给其它开发者，开发者通过 `RegisteredServiceProvider` 重新获得对应的类。
 
-::: info **到底怎么回事**？
+::: info <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' transform='scale(0.6)' fill='%23fff'%3E%3Cpath d='M9.1 0C10.2 0 10.7 0.7 10.7 1.6 10.7 2.6 9.8 3.6 8.6 3.6 7.6 3.6 7 3 7 2 7 1.1 7.7 0 9.1 0Z'/%3E%3Cpath d='M5.8 16C5 16 4.4 15.5 5 13.2L5.9 9.1C6.1 8.5 6.1 8.2 5.9 8.2 5.7 8.2 4.6 8.6 3.9 9.1L3.5 8.4C5.6 6.6 7.9 5.6 8.9 5.6 9.8 5.6 9.9 6.6 9.5 8.2L8.4 12.5C8.2 13.2 8.3 13.5 8.5 13.5 8.7 13.5 9.6 13.2 10.4 12.5L10.9 13.2C8.9 15.2 6.7 16 5.8 16Z'/%3E%3C/svg%3E" style="background-color:#0B87DA; clip-path: circle();" width="24px" height="24px"> **到底怎么回事**？
 （为了方便表述，下面我们将「依赖你的插件的那个插件」称为「X 插件」）
 
 X 插件的开发者们只有接口（`IStoredDataManager` 等），**没有它们对应的实现**（`APIStoredDataManager`），因此无法通过 `new` 创建一个新的对象。

@@ -9,6 +9,10 @@
     --vp-font-family-base: "Fira Code", BlinkMacSystemFont, "Segoe UI", Roboto,
         "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
         "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    /* 加深字体颜色。 */
+    --vp-c-text-light-1: rgb(77, 77, 77);
+    --vp-c-text-light-2: rgba(77, 77, 77, 0.75);
+    --vp-c-text-light-3: rgba(77, 77, 77, 0.33);
 }
 
 .vp-doc h1 {
@@ -39,13 +43,98 @@
     border-left-color: rgb(11, 135, 218);
     border-left-style: solid;
     border-left-width: 4px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    /* 增大引文区域内上下两侧的空白。 */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* 增大与其它文字间的距离。 */
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .vp-doc blockquote>p {
-    /* 引文段落间距增大，都用纯黑色文字。 */
-    color: black;
+    /* 引文段落间距增大，都用黑色文字。 */
+    color: #4D4D4D;
     padding-top: 6px;
     padding-bottom: 6px;
+}
+
+.custom-block {
+    /* Custom Block 即 Vitepress 中所支持的 ::: 容器。 */
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    border-left-style: solid;
+    border-left-width: 4px;
+    border-right-style: solid;
+    border-right-width: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 4px;
+    border-top-style: solid;
+    border-top-width: 0px;
+    /* 增大容器区域内上下两侧的空白。 */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* 重置容器区域内左侧的空白。 */
+    padding-left: 0px;
+    /* 增大与其它文字间的距离。 */
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.custom-block>p:not(.custom-block-title) {
+    /* 都用黑色文字，增大字号。 */
+    color: #4D4D4D;
+    font-size: 16px;
+    /* 容器段落间距增大。 */
+    padding-top: 6px;
+    padding-bottom: 6px;
+    /* 容器段落向右侧缩进，确保标志图片在所有文字左侧。 */
+    /* 图片向右缩进 12px ，图片宽度 24px ，再缩进 12px ，总共 48px 。 */
+    padding-left: 48px;
+}
+
+.custom-block-title {
+    /* 都用黑色文字，增大字号。 */
+    color: #4D4D4D;
+    font-size: 16px;
+    /* 确保容器标志图片和标题在同一行。 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* 容器段落间距增大。 */
+    padding-top: 6px;
+    padding-bottom: 6px;
+    /* 图片向右缩进 12px 。 */
+    padding-left: 12px;
+}
+
+.custom-block-title>strong {
+    /* 文字与图片之间相距 12px 。 */
+    padding-left: 12px;
+}
+
+.custom-block.info {
+    /* Info 外貌设为蓝色。 */
+    background-color: rgb(239, 246, 251);
+    border-bottom-color: rgb(11, 135, 218);
+    border-left-color: rgb(11, 135, 218);
+    border-right-color: rgb(11, 135, 218);
+    border-top-color: rgb(11, 135, 218);
+}
+
+.custom-block.danger {
+    /* Danger 外貌设为红色。 */
+    background-color: rgb(251, 239, 243);
+    border-bottom-color: rgb(218, 11, 80);
+    border-left-color: rgb(218, 11, 80);
+    border-right-color: rgb(218, 11, 80);
+    border-top-color: rgb(218, 11, 80);
+}
+
+.custom-block.details summary {
+    /* Details Summary 向右缩进。 */
+    padding-left: 48px;
+    padding-top: 14px;
+    font-size: 16px;
 }
