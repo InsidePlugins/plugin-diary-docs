@@ -2,9 +2,6 @@
 /* 从 google fonts cn 中引入 fira code 字体。 */
 
 :root {
-    /* 应用 fira code 字体到代码。 */
-    --vp-font-family-mono: ui-monospace, "Fira Code", SFMono-Regular, "SF Mono",
-        Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     /* 应用 ThatRarityEG 原文的字体到教程正文。 */
     --vp-font-family-base: "Fira Code", BlinkMacSystemFont, "Segoe UI", Roboto,
         "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",

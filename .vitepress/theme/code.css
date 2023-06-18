@@ -1,9 +1,17 @@
 :root {
+    /* 应用 ThatRarityEG 原文的字体到教程代码。 */
+    --vp-font-family-mono: Inconsolata, Consolas, Menlo, Monaco, "Andale Mono WT",
+    "Andale Mono", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+    "Courier New", Courier, monospace;
+    
+    /* 调整背景颜色。 */
     --vp-code-tab-bg: #E3E3E3;
     --vp-code-tab-text-color: #333333;
     --vp-code-block-color: rgb(51, 51, 51);
     --vp-code-block-bg: rgb(247, 247, 247);
     --vp-c-text-code: #333333;
+    
+    /* 增大代码字号。 */
     --vp-code-font-size: 0.95em;
 
     /* 复制按钮改浅。 */
