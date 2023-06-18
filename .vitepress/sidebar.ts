@@ -76,10 +76,10 @@ export const sidebar = [
     text: "卷六：锻造升级",
     link: "/Volume6/6.md",
     items: [
-      { text: "Java 中的一些工具类", link: "/Volume6/6-1.md" },
-      { text: "使用其它插件的 API", link: "/Volume6/6-2.md" },
-      { text: "为更好的自己", link: "/Volume6/6-3.md" },
-      { text: "向其它插件提供 API", link: "/Volume6/AC-2.md" },
+      { text: "6-1 Java 中的一些工具类", link: "/Volume6/6-1.md" },
+      { text: "6-2 使用其它插件的 API", link: "/Volume6/6-2.md" },
+      { text: "6-3 为更好的自己", link: "/Volume6/6-3.md" },
+      { text: "AC-2 向其它插件提供 API", link: "/Volume6/AC-2.md" },
     ],
   },
   {
