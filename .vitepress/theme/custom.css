@@ -21,6 +21,7 @@
 }
 
 .vp-doc blockquote>p {
+    color: black;
     padding-top: 6px;
     padding-bottom: 6px;
 }
