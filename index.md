@@ -12,7 +12,7 @@ hero:
       link: /Volume0/Preface_Original.html
     - theme: alt
       text: 为什么要补订
-      link: /about/Postface.html
+      link: /Postface/Postface.html
     - theme: alt
       text: 开发交流社区
       link: https://discord.gg/Z7ptUFH7b
