@@ -43,3 +43,15 @@
     /* 点按后显示阴影。 */
     box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
 }
+
+.btn-event {
+    /* 单击开始事件模拟按钮。 */
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #ffe0f0;
+
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
