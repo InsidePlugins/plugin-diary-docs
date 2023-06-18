@@ -11,6 +11,9 @@ hero:
       text: 开始学习吧！
       link: /Volume0/Preface_Original.html
     - theme: alt
-      text: 补订跋辞
+      text: 为什么要补订
       link: /about/Postface.html
+    - theme: alt
+      text: 开发交流社区
+      link: https://discord.gg/Z7ptUFH7b
 ---
