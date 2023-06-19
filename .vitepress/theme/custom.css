@@ -17,6 +17,7 @@
     font-size: 38px;
     font-weight: 400;
     color: #333333;
+    padding-bottom: 32px;
 }
 
 .vp-doc h2 {
@@ -91,6 +92,18 @@
     /* 容器段落向右侧缩进，确保标志图片在所有文字左侧。 */
     /* 图片向右缩进 12px ，图片宽度 24px ，再缩进 12px ，总共 48px 。 */
     padding-left: 48px;
+}
+
+.custom-block>ul {
+    /* 都用黑色文字，增大字号。 */
+    color: #4D4D4D;
+    font-size: 16px;
+    /* 容器段落间距增大。 */
+    padding-top: 6px;
+    padding-bottom: 6px;
+    /* 容器段落向右侧缩进，确保标志图片在所有文字左侧。 */
+    /* 由于列表项左侧有点，要让点与上方文字对齐，而不是正文与上方文字对齐。所以多缩进 16px 。 */
+    padding-left: 64px;
 }
 
 .custom-block-title {
