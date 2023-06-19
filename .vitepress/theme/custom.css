@@ -27,6 +27,7 @@
         ThatRarityEG 原文中的 --- 分割线往往在段尾，与标题的分割线重复。
         现将 Vitepress 的标题分割线挪至下方，模拟 docsify 效果。
      */
+    margin-top: 24px;
     padding-top: 0px;
     padding-bottom: 24px;
     border-top: 0px;
