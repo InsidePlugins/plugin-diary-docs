@@ -42,7 +42,7 @@ Cloudflare Pages 托管了本站点。
 
 ## 法律信息
 
-本教程原是 ThatRarityEG 所著，自她去故离尘以后，InsidePlugins 小组维护本站点，此处所言的部分法律信息已经过时。出于尊重原作者之故，仍然保留旧有法律信息的原文，但全部按失效处理。本教程法律信息详见《跋辞》。
+本教程原是 ThatRarityEG 所著，自她去故离尘以后，InsidePlugins 小组维护本站点，此处所言的部分法律信息已经过时。出于尊重原作者之故，仍然保留旧有法律信息的原文，但全部按失效处理。本教程法律信息详见[《跋辞》](https://plugindiary.pvpin.org/Postface/Postface.html#版权信息)。
 
 :::details 旧法律信息（现已失效）
 「本教程」指 https://plgdev.xuogroup.top/ 网站下的全部 HTML 页面以及 https://github.com/Andy-K-Sparklight/PluginDiary/ 所表示的 Git 仓库下的所有 Markdown 文件。链接到上述 HTML 页面中的样式表、字体、JavaScript 脚本等内容和上述 Git 仓库中非 Markdown 文件不属于「本教程」，它们适用单独的许可条款。「本站点」指 https://plgdev.xuogroup.top/ 网站下的全部 HTML 页面。
