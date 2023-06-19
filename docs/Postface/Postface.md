@@ -26,7 +26,7 @@ ThatRarityEG 道席曾著[《PluginDiary 插件开发教程》](https://www.mcbb
 
 原教程文字部分，大都适用[知识共享署名 3.0 中国大陆许可协议](https://creativecommons.org/licenses/by/3.0/cn/)。本教程既然修改、分发了原教程文字内容，则需遵守协议。按协议要求，首先应当为原作者署名。原教程文字内容主要作者系 ThatRarityEG 。另有 Katorly 和 William_Shi 两人，曾向原教程的 GitHub 仓库发送过 Pull Request ，已被合并，也在作者之列。InsidePlugins 小组成员对文字内容有所删改，修订了原教程的文字内容。本教程全部文字内容按律沿用[知识共享署名 3.0 中国大陆许可协议](https://creativecommons.org/licenses/by/3.0/cn/)。如其它人欲在本教程基础上修改文字内容，须遵守该协议一应条款，同样使用[知识共享署名 3.0 中国大陆许可协议](https://creativecommons.org/licenses/by/3.0/cn/)分发新作。
 
-![CC-BY-3.0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)
+![CC-BY-3.0.svg](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)
 
 原教程代码部分，任何人均有使用、复制、修改、再分发以及相关的权利，无需署名或向作者申请额外的许可。此权利系原教程作者所明确授予。本教程沿用之，同样授予读者使用、复制、修改、再分发以及相关权利，无需别作署名、申请。但原教程作者注明，其文中的某些代码按照 [GNU 通用公共许可证（第三版）](https://www.gnu.org/licenses/gpl-3.0.html)分发。所谓“某些代码”，指 6-3 中提及的 RarityCommons 和 AC-3-1 中提及的 CuteCoin 两段代码。按 [GPL3](https://www.gnu.org/licenses/gpl-3.0.html) 协议内容，相关代码必须沿用 [GPL3](https://www.gnu.org/licenses/gpl-3.0.html) 协议分发。本教程对这两段代码没有作任何改动，也沿用 [GPL3](https://www.gnu.org/licenses/gpl-3.0.html) 协议。
 

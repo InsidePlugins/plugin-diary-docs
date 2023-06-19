@@ -134,7 +134,7 @@ public class HelloWorld extends JavaPlugin {
 
 *此处内容引用自 [RUNOOB Java 教程](https://www.runoob.com/java/java-basic-syntax.html)。*
 
-![EXTENDS](https://www.runoob.com/wp-content/uploads/2013/12/14B0951E-FC75-47A3-B611-4E1883887339.jpg)
+![EXTENDS.jpg](https://www.runoob.com/wp-content/uploads/2013/12/14B0951E-FC75-47A3-B611-4E1883887339.jpg)
 
 「食草动物」继承了「动物」，「食肉动物」也继承了「动物」，它们都具有和「动物」类一样的方法。
 
