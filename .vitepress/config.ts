@@ -4,7 +4,7 @@ import { sidebar } from "./sidebar";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  lang: 'zh-cmn-Hans',
+  lang: 'zh-CN',
   description: "补订《插件开发日记》",
   titleTemplate: ':title - 补订《插件开发日记》',
   themeConfig: {
