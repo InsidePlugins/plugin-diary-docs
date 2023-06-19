@@ -12,6 +12,10 @@ ThatRarityEG 道席曾著[《PluginDiary 插件开发教程》](https://www.mcbb
 洎小马去故，教程失修。文囿之窥琅嬛，士林之睹四彻；[泥潭](https://www.mcbbs.net)是自，[专版](https://www.mcbbs.net/forum-development-1.html)爰由。然而[庚子遗编](https://www.mcbbs.net/thread-1163259-1-3.html)，居副墨于卷首；[域名故址](https://plgdev.xuogroup.top)，缘到期而无存。虽有[元刊](https://plugin-diary.pages.dev)，人或[不晓](https://www.mcbbs.net/forum.php?mod=viewthread&tid=1163259&page=1&ordertype=1#pid28207088)。它若[图床玑零](https://github.com/Andy-K-Sparklight/PluginDiary/issues/2)，[代码壁碎](https://github.com/Andy-K-Sparklight/PluginDiary/issues/5)；[链接失效](https://github.com/Andy-K-Sparklight/PluginDiary/issues/7)，[反馈无门](https://www.mcbbs.net/forum.php?mod=redirect&goto=findpost&ptid=1163259&pid=28167350)。问者摩肩，不稽夙存之对；答者疲乏，难并雷同之疑。所赖生钻、笺舟，共勤勘校；南门、主界，同务编摩。访读者于群聊，[丹青重绘](https://github.com/Andy-K-Sparklight/PluginDiary/pull/3)；辑前贤之逸论，[链接削删](https://github.com/RawDiamondMC/PluginDiary/commit/8c89c196fd6d740a51cb0802bb32cf5f594fb0e9)。然而[订正](https://github.com/Andy-K-Sparklight/PluginDiary/pull/6)经年，[无人查核](https://github.com/Andy-K-Sparklight/PluginDiary/pull/6#issuecomment-1226971489)；是知元刊[旧页](https://plugin-diary.pages.dev)，[见系私仓](https://github.com/Andy-K-Sparklight/PluginDiaryCode)。迩来廪主离尘，空有遗册；它人怀意，无可纠讹。昔者子产见褒于仲尼，常杨称颂于后世；都言协作，全凭遭逢。况今一十卷之汗青，五十篇之别藏；虽游夏不能润色，子羽不能校刊；固非小马所期，大悖自由之旨。以是今日开馆，芟衍文于旧帙；明朝编竣，成佳事于艺林。纵无房杜之才，可颂群朋之盛；虽无续麟之笔，聊订讹本之说。撮壤崇山、导涓宗海。十函《日记》，千帙编周；绣错绮交，光浮绿焕。丕昌丕承，辉映万年！
 :::
 
+![](data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAkAAAEALAAAAAABAAEAAAICTAEAOw==)
+
+<!-- 用一个 1x1 像素的图片占位，让距离不那么逼仄。图片用 Base64 编码。 -->
+
 # 版权信息
 
 「本教程」指 https://plugindiary.pvpin.org 网站下的全部 HTML 页面以及 https://github.com/InsidePlugins/plugin-diary-docs 所表示的 Git 仓库下的所有 Markdown 文件。链接到上述 HTML 页面中的样式表、字体、JavaScript 脚本等内容和上述 Git 仓库中非 Markdown 文件不属于「本教程」，它们适用单独的许可条款。「本站点」指 https://plugindiary.pvpin.org 网站下的全部 HTML 页面。

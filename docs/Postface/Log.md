@@ -18,6 +18,10 @@
 
 十八日晨，William_Shi 修改 CSS 文件，俾使 Vitepress 所支持的 Markdown-It 格式中以 ::: 包裹的自定义容器渲染后类似 docsify 中 !> 和 ?> 容器。夜，William_Shi 修改 CSS 文件，俾使代码高亮颜色近于 docsify 所用之 Prism 高亮系统，并调整代码块背景颜色、复制按钮颜色。又复原“事件模拟”及“确认行动结束”两功能。至斯，页面样式大备，与原站难分真假。
 
+![](data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAkAAAEALAAAAAABAAEAAAICTAEAOw==)
+
+<!-- 用一个 1x1 像素的图片占位，让距离不那么逼仄。图片用 Base64 编码。 -->
+
 # 链接会录
 
 《补订<日记>》的入口：[https://plugindiary.pvpin.org](https://plugindiary.pvpin.org)
