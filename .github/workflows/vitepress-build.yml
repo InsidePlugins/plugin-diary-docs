@@ -44,7 +44,7 @@ jobs:
         git checkout -f master
         git branch -D pvpin-pages
 
-    - name: Notify remote server to update
+    - name: Notify host server
       run: |
-        curl --connect-timeout 5 ${{ secrets.NOTIFY_URL }}
+        curl --silent --show-error --connect-timeout 5 ${{ secrets.NOTIFY_URL }}
     
