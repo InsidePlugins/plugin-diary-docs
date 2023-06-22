@@ -16,4 +16,27 @@ hero:
     - theme: alt
       text: 开发交流社区
       link: https://discord.gg/Z7ptUFH7b
+features:
+  - icon: 🦄
+    title: 小马之逸编
+    details: 壁碎玑零，今朝复合。
+  - icon: 💬
+    title: 对话之文辞
+    details: 读如应答，笑貌跃然。
+  - icon: 📚
+    title: 统贯之蒙书
+    details: 津逮后生，行遥自迩。
+  - icon: 🎊
+    title: 实例之缀联
+    details: 留篇启沃，垂范万年。
 ---
+<style scope>
+  .VPContent.is-home{
+    background-image: url('https://s2.loli.net/2023/06/22/fsIJzwPnjqMZpDB.png');
+    background-size: contain;
+  }
+  :root{
+    --vp-home-hero-name-color: #057e3d;
+    --vp-c-brand: #057e3d;
+  }
+</style>
