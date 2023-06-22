@@ -14,26 +14,26 @@
 
 1. 作者在编写时尽最大努力使内容真实有效，但无任何保证。
 2. 对自然人的称呼中，使用某一特定的性别表述仅是为编写方便，并无任何象征或指代意义。
-3. 如无特殊说明，本教程中的代码部分，作者授予您使用、复制、修改、再分发以及相关的权利，无需署名或申请额外的许可。**仅仅代码部分才如此**！部分代码不适用本条，它们拥有特别的许可协议。文本内容采用 CC-BY-3.0 协议许可，见下。
+3. 如无特殊说明，本教程中的代码部分，作者授予您使用、复制、修改、再分发以及相关的权利，无需署名或申请额外的许可。**仅仅代码部分才如此**！部分代码不适用本条，它们拥有特别的许可协议。文本内容采用 CC-BY-3.0 协议许可，[见此](https://plugindiary.pvpin.org/Postface/Postface.html#版权信息)。
 4. 教程中引用的所有文本内容均得到作者的或者该作品许可中的授权，效果截图来自作者计算机。
 5. 音乐全部引用自 [网易云音乐](https://music.163.com)，本站点未存储任何文件。
 
 ## 技术信息
 
-本教程站点是基于 Vitepress 构建的，笔者自行编写了数个 CSS 文件，使其外观接近 docsify 所渲染的站点。
+本教程站点是基于 [Vitepress](https://vitepress.dev/) 构建的，笔者自行编写了数个 CSS 文件，使其外观接近 [docsify](https://docsify.js.org/#/) 所渲染的站点。
 
-主要字体采用 FiraCode，剧情模拟和行动确认是由笔者的 Vue SFC 完成的。
+主要字体采用 [FiraCode](https://github.com/tonsky/FiraCode)，剧情模拟和行动确认是由笔者的 Vue SFC 完成的。
 
-本教程原是 ThatRarityEG 所著，自她去故离尘以后，InsidePlugins 小组维护本站点。技术信息详见《跋辞》、《重梓<日记>纪事》。
+本教程原是 ThatRarityEG 所著，自她去故离尘以后，InsidePlugins 小组维护本站点。技术信息详见[《跋辞》](https://plugindiary.pvpin.org/Postface/Postface.html)、[《重梓<日记>纪事》](https://plugindiary.pvpin.org/Postface/Log.html)。
 
 :::details 旧技术信息（现已失效）
-本教程站点是基于 docsify 构建的，采用了 docsify-themeable 进行渲染。
+本教程站点是基于 [docsify](https://docsify.js.org/#/) 构建的，采用了 [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable/) 进行渲染。
 
-主要字体采用 FiraCode，按钮部分来自 Bootstrap，剧情模拟和行动确认是由笔者的 `build.js` 和 `log.js` 完成的。
+主要字体采用 [FiraCode](https://github.com/tonsky/FiraCode)，按钮部分来自 [Bootstrap](https://getbootstrap.com/)，剧情模拟和行动确认是由笔者的 `build.js` 和 `log.js` 完成的。
 
-保证页面正常运作的代码由 jsDelivr 为您加速。
+保证页面正常运作的代码由 [jsDelivr](https://www.jsdelivr.com/) 为您加速。
 
-Cloudflare Pages 托管了本站点。
+[Cloudflare Pages](https://pages.cloudflare.com/) 托管了本站点。
 :::
 
 ---
