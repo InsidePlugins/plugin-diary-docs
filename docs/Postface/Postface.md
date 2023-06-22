@@ -56,7 +56,7 @@ Spigot 服务端分发/下载服务是由 [GetBukkit 组织](https://getbukkit.o
 
 - [RUNOOB 菜鸟教程](https://www.runoob.com)，已在 [此处](https://www.runoob.com/disclaimer) 得到了普适的授权。
 - [Bukkit Development Note](https://bdn.tdiant.net)，其许可协议已附在其首页。
-- [Paper-API JavaDocs](https://papermc.io/javadocs/paper/1.16/overview-summary.html)，该网站的内容采用 MIT 许可证进行授权，见 [此处](https://github.com/PaperMC/papermc.io/blob/master/LICENSE)。
+- [Paper-API JavaDocs](https://papermc.io/javadocs/paper/1.16/overview-summary.html)，该网站的内容采用 [MIT 许可证](https://github.com/PaperMC/papermc.io/blob/master/LICENSE)进行授权。
 - [Hanbing‘s Blog](https://hanbings.github.io/2020/08/17/神奇的Bukkit笔记-插件对其他插件的软依赖/)，由于没有任何版权声明，我们仅以学习目的引用少量内容，且均注明了出处。（2023/6/22，由于原网站仓库[250d925](https://github.com/hanbings/hanbings.github.io/commit/250d925d12ff1963bd7b93aa2514f9370a275dda)的更改，该链接暂时失效）
 - [中文 Minecraft Wiki 镜像](https://wiki.biligame.com/mc/Minecraft_Wiki)，由于要求相同方式共享，与我们的许可不兼容，因此仅链接到本站而不进行任何引用。
 - [GNU 官方站点](https://www.gnu.org)，该站点使用 [CC-BY-ND 4.0 知识共享许可证](https://creativecommons.org/licenses/by-nd/4.0/) 授权。
