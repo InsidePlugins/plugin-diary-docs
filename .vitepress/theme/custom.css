@@ -59,6 +59,11 @@
     padding-bottom: 6px;
 }
 
+.vp-doc ol {
+    /* 有序列表的序号应与正文对齐，而非让列表元素与正文对齐。 */
+    margin-left: 10px;
+}
+
 .custom-block {
     /* Custom Block 即 Vitepress 中所支持的 ::: 容器。 */
     border-bottom-left-radius: 0px;
@@ -95,7 +100,8 @@
     padding-left: 48px;
 }
 
-.custom-block>ul {
+.custom-block>ul,
+.custom-block>ol {
     /* 都用黑色文字，增大字号。 */
     color: #4D4D4D;
     font-size: 16px;
