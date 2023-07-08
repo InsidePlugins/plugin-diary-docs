@@ -34,15 +34,19 @@
 
 《补订<日记>》的入口：[https://plugindiary.pvpin.org](https://plugindiary.pvpin.org)
 
+《补订<日记>》的发布帖：[https://www.mcbbs.net/thread-1454134-1-1.html](https://www.mcbbs.net/thread-1454134-1-1.html)
+
+修改 PluginDiary 的申请帖：[https://www.mcbbs.net/thread-1454189-1-1.html](https://www.mcbbs.net/thread-1454189-1-1.html)
+
 《补订<日记>》的 GitHub 仓库：[https://github.com/InsidePlugins/plugin-diary-docs](https://github.com/InsidePlugins/plugin-diary-docs)
 
 ThatRarityEG 的个人主页：[https://www.mcbbs.net/home.php?mod=space&uid=3281025](https://www.mcbbs.net/home.php?mod=space&uid=3281025)
 
-PluginDiary 的发布帖：[https://www.mcbbs.net/thread-1163259-1-1.html](https://www.mcbbs.net/thread-1163259-1-1.html)
-
 PluginDiary 的旧入口（曾被小马推荐，但域名已到期）：[https://plgdev.xuogroup.top](https://plgdev.xuogroup.top)
 
 PluginDiary 的旧入口（今日尚且有效，但内容已失修）：[https://plugin-diary.pages.dev](https://plugin-diary.pages.dev)
+
+PluginDiary 的发布帖：[https://www.mcbbs.net/thread-1163259-1-1.html](https://www.mcbbs.net/thread-1163259-1-1.html)
 
 PluginDiary 的旧 GitHub 仓库（教程正文部分）：[https://github.com/Andy-K-Sparklight/PluginDiary](https://github.com/Andy-K-Sparklight/PluginDiary)
 
