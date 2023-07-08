@@ -20,6 +20,12 @@
 
 二十六日晨，服务商迁移机器，致使服务器 IP 生变，域名解析至错误地址上。晚，Moe_Miner 修改域名解析地址，网站恢复正常。
 
+## 2023-7
+
+七月七日旰，Moe_Miner 和 William_Shi 二人重绘图片告竣。教程内容全齐。晚，William_Shi 拟在 MCBBS 编程开发版发帖，用于宣传《补订<日记>》，并由管理组在 ThatRarityEG 原帖内删去失效域名，添加《补订<日记>》相关信息。私信呈请于编程开发版主 tdiant 后，获准。
+
+八日午后，William_Shi 将草稿帖发出，即[《补订 RarityEG's Plugin Dev Tutorial 插件开发日记》](https://www.mcbbs.net/thread-1454134-1-1.html)。又于 MCBBS 反馈版发布主题[《申请维护 RarityEG's Plugin Dev Tutorial》](https://www.mcbbs.net/thread-1454189-1-1.html)，请求版主在原帖内标注“xuogroup.top”域名为“失效入口”，并提供指向《补订<日记>》的链接。tdiant 版主乙览，批准申请，并将图标、图章、高亮移至新帖。
+
 ![](data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAkAAAEALAAAAAABAAEAAAICTAEAOw==)
 
 <!-- 用一个 1x1 像素的图片占位，让距离不那么逼仄。图片用 Base64 编码。 -->
