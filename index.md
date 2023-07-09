@@ -15,7 +15,7 @@ hero:
       link: /Postface/Postface.html
     - theme: alt
       text: 开发交流社区
-      link: https://discord.gg/Z7ptUFH7b
+      link: https://discord.gg/7jS7RsMBda
 features:
   - icon: 🦄
     title: 小马之逸编

@@ -24,7 +24,7 @@ export default defineConfig({
     siteTitle: 'PluginDiary',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/InsidePlugins/plugin-diary-docs' },
-      { icon: 'discord', link: 'https://discord.gg/Z7ptUFH7b' }
+      { icon: 'discord', link: 'https://discord.gg/7jS7RsMBda' }
     ]
   },
   appearance: false,
