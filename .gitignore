@@ -126,3 +126,6 @@ dist
 dist-ssr
 *.local
 .cache-loader
+
+.vitepress/cache
+

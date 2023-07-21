@@ -69,7 +69,8 @@ export const sidebar = [
       { text: "5-4 药水效果", link: "/Volume5/5-4.md" },
       { text: "5-5 音效", link: "/Volume5/5-5.md" },
       { text: "5-6 原始 JSON 文本", link: "/Volume5/5-6.md" },
-      { text: "5-7 自定义进度", link: "/Volume5/5-7.md" },
+      { text: "5-7 AdventureAPI", link: "/Volume5/5-7.md" },
+      { text: "5-8 自定义进度", link: "/Volume5/5-8.md" },
     ],
   },
   {
