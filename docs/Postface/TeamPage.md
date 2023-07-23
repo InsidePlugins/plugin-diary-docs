@@ -43,6 +43,22 @@ const members = [
     ]
   },
   {
+    avatar: 'https://github.com/CaveNightingale.png',
+    name: 'CaveNightingale',
+    title: '纂修',
+    links: [
+      { icon: 'github', link: 'https://github.com/CaveNightingale' }
+    ]
+  },
+  {
+    avatar: 'https://github.com/freeze-dolphin.png',
+    name: 'Sapphira Tempest',
+    title: '纂修',
+    links: [
+      { icon: 'github', link: 'https://github.com/freeze-dolphin' }
+    ]
+  },
+  {
     avatar: 'https://github.com/katorly.png',
     name: 'Katorly',
     title: '纂修',
