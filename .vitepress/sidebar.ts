@@ -57,7 +57,7 @@ export const sidebar = [
       { text: "AC-1-1 HarmonyAuth SMART Part 1", link: "/Volume4/AC-1-1.md" },
       { text: "AC-1-2 HarmonyAuth SMART Part 2", link: "/Volume4/AC-1-2.md" },
       { text: "AC-1-3 调试 HarmonyAuth SMART Part 1", link: "/Volume4/AC-1-3.md" },
-      { text: "AC-1-3 调试 HarmonyAuth SMART Part 2", link: "/Volume4/AC-1-4.md" },
+      { text: "AC-1-4 调试 HarmonyAuth SMART Part 2", link: "/Volume4/AC-1-4.md" },
     ],
   },
   {
