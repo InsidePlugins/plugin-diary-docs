@@ -1,5 +1,5 @@
 .btn-unconfirmed {
-    /* 确认行动结束按钮。 */
+    /* 确认行动结束按钮 */
     color: #fff;
     background-color: #17a2b8;
     border-color: #17a2b8;
@@ -10,19 +10,19 @@
 }
 
 .btn-unconfirmed:hover {
-    /* 光标悬浮时加深颜色。 */
+    /* 光标悬浮时加深颜色 */
     color: #fff;
     background-color: #138496;
     border-color: #117a8b;
 }
 
 .btn-unconfirmed:focus {
-    /* 点按后显示阴影。 */
+    /* 点按后显示阴影 */
     box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5);
 }
 
 .btn-confirmed {
-    /* 恭喜按钮。 */
+    /* 恭喜按钮 */
     color: #fff;
     background-color: #28a745;
     border-color: #28a745;
@@ -33,19 +33,19 @@
 }
 
 .btn-confirmed:hover {
-    /* 光标悬浮时加深颜色。 */
+    /* 光标悬浮时加深颜色 */
     color: #fff;
     background-color: #218838;
     border-color: #1e7e34;
 }
 
 .btn-confirmed:focus {
-    /* 点按后显示阴影。 */
+    /* 点按后显示阴影 */
     box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
 }
 
 .btn-event {
-    /* 单击开始事件模拟按钮。 */
+    /* 单击开始事件模拟按钮 */
     width: 100%;
     height: 50px;
     text-align: center;

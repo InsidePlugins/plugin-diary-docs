@@ -36,11 +36,11 @@
 
 首先，下载 JDK 安装包。
 
-如果你打算写一个能运行在 1.17 及以上版本服务端的插件，那么建议你下载 [JDK 17](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jdk/x64/windows/OpenJDK17U-jdk_x64_windows_hotspot_17.0.7_7.msi) ，否则就下载 [JDK 11](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/11/jdk/x64/windows/OpenJDK11U-jdk_x64_windows_hotspot_11.0.19_7.msi) 。
+如果你打算写一个能运行在 1.17 及以上版本服务端的插件，那么建议你下载 [JDK 17](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jdk/x64/windows/OpenJDK17U-jdk_x64_windows_hotspot_17.0.7_7.msi)，否则就下载 [JDK 11](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/11/jdk/x64/windows/OpenJDK11U-jdk_x64_windows_hotspot_11.0.19_7.msi) 。
 
 上述链接是 **Adoptium JDK** 的下载地址，该 JDK 系自由软件，如果只是使用的话不存在版权问题，大家尽管使用~
 
-其实 JDK 版本与插件所支持的 Minecraft 服务端版本之间并没有必然联系。即使你下载了 JDK 11 ，写出来的插件也完全可以运行在 1.17 版本的服务端上。下载了 JDK 17 ，插件也不一定就不支持 1.16.5 版本的服务端。JDK 版本影响的是你能在电脑上运行哪个版本的 Minecraft 服务端。运行一个 1.17 及以上版本的服务端时，你不能使用 JDK 11 ，只能使用 17 及以上版本的 JDK 。假如你要写一个支持 1.17 版本服务端的插件，电脑上却不能运行 1.17 版本的服务端，那你就只能在 1.16.5 版本的服务端里测试，无法保证该插件在 1.17 版本服务端中运行的情况。
+其实 JDK 版本与插件所支持的 Minecraft 服务端版本之间并没有必然联系。即使你下载了 JDK 11，写出来的插件也完全可以运行在 1.17 版本的服务端上。下载了 JDK 17，插件也不一定就不支持 1.16.5 版本的服务端。JDK 版本影响的是你能在电脑上运行哪个版本的 Minecraft 服务端。运行一个 1.17 及以上版本的服务端时，你不能使用 JDK 11，只能使用 17 及以上版本的 JDK 。假如你要写一个支持 1.17 版本服务端的插件，电脑上却不能运行 1.17 版本的服务端，那你就只能在 1.16.5 版本的服务端里测试，无法保证该插件在 1.17 版本服务端中运行的情况。
 
 下文中，所有代码都基于 1.16.5 版本 Minecraft 服务端编写。所以此处演示如何安装 JDK 11 。
 
