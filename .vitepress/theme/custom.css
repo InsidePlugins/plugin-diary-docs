@@ -38,6 +38,14 @@
     color: #333333;
 }
 
+.vp-doc h2>a.header-anchor {
+    top: 0px;
+    /* 
+        光标悬浮在标题上时，标题左侧会显示 # 符号，点击即可跳转到该标题对应的链接。
+        更新至 Vitepress 1.0.0-rc.4 以后，# 符号的位置错误，应当上移。
+    */
+}
+
 .vp-doc blockquote {
     /* 引文用蓝色边框，浅灰色背景 */
     background-color: rgb(247, 247, 247);

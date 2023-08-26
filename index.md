@@ -16,6 +16,7 @@ hero:
     - theme: alt
       text: 开发交流社区
       link: https://discord.gg/7jS7RsMBda
+
 features:
   - icon: 🦄
     title: 小马之逸编
@@ -30,13 +31,14 @@ features:
     title: 实例之缀联
     details: 留篇启沃，垂范万年。
 ---
+
 <style scope>
   .VPContent.is-home{
-    background-image: url('https://s2.loli.net/2023/06/22/fsIJzwPnjqMZpDB.png');
-    background-size: contain;
+    background-color: #b1ceff;
   }
+  
   :root{
-    --vp-home-hero-name-color: #057e3d;
-    --vp-c-brand: #057e3d;
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #731482 20%, #DF307F);
   }
 </style>
