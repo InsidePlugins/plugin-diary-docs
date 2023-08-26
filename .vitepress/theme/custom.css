@@ -69,7 +69,7 @@
 
 .vp-doc ol {
     /* 有序列表的序号应与正文对齐，而非让列表元素与正文对齐 */
-    margin-left: 10px;
+    margin-left: 12px;
 }
 
 .custom-block {
@@ -86,9 +86,9 @@
     border-top-right-radius: 4px;
     border-top-style: solid;
     border-top-width: 0px;
-    /* 增大容器区域内上下两侧的空白 */
+    /* 增大容器区域内上方的空白 */
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 2px;
     /* 重置容器区域内左侧的空白 */
     padding-left: 0px;
     /* 增大与其它文字间的距离 */
@@ -116,6 +116,8 @@
     /* 容器段落间距增大 */
     padding-top: 6px;
     padding-bottom: 6px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     /* 
         容器段落向右侧缩进，确保标志图片在所有文字左侧。
         由于列表项左侧有点，要让点与上方文字对齐，而不是正文与上方文字对齐。所以多缩进 16px。
@@ -125,7 +127,7 @@
 
 .custom-block-title {
     /* 都用黑色文字，增大字号 */
-    color: #4D4D4D;
+    color: #333333;
     font-size: 16px;
     /* 确保容器标志图片和标题在同一行 */
     display: flex;

@@ -72,7 +72,7 @@
 
 点击[这个链接](https://www.jetbrains.com.cn/idea/download/download-thanks.html?platform=windows)来下载安装包。这是 **IntelliJ IDEA**，一个强大的开发工具。
 
-::: info <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' transform='scale(0.6)' fill='%23fff'%3E%3Cpath d='M9.1 0C10.2 0 10.7 0.7 10.7 1.6 10.7 2.6 9.8 3.6 8.6 3.6 7.6 3.6 7 3 7 2 7 1.1 7.7 0 9.1 0Z'/%3E%3Cpath d='M5.8 16C5 16 4.4 15.5 5 13.2L5.9 9.1C6.1 8.5 6.1 8.2 5.9 8.2 5.7 8.2 4.6 8.6 3.9 9.1L3.5 8.4C5.6 6.6 7.9 5.6 8.9 5.6 9.8 5.6 9.9 6.6 9.5 8.2L8.4 12.5C8.2 13.2 8.3 13.5 8.5 13.5 8.7 13.5 9.6 13.2 10.4 12.5L10.9 13.2C8.9 15.2 6.7 16 5.8 16Z'/%3E%3C/svg%3E" style="background-color:#0B87DA; clip-path: circle();" width="24px" height="24px"> 如果你还在使用 Windows 7，请下载[这个版本](https://download.jetbrains.com/idea/ideaIU-2020.1.4.exe)。
+::: info <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' transform='scale(0.6)' fill='%23fff'%3E%3Cpath d='M9.1 0C10.2 0 10.7 0.7 10.7 1.6 10.7 2.6 9.8 3.6 8.6 3.6 7.6 3.6 7 3 7 2 7 1.1 7.7 0 9.1 0Z'/%3E%3Cpath d='M5.8 16C5 16 4.4 15.5 5 13.2L5.9 9.1C6.1 8.5 6.1 8.2 5.9 8.2 5.7 8.2 4.6 8.6 3.9 9.1L3.5 8.4C5.6 6.6 7.9 5.6 8.9 5.6 9.8 5.6 9.9 6.6 9.5 8.2L8.4 12.5C8.2 13.2 8.3 13.5 8.5 13.5 8.7 13.5 9.6 13.2 10.4 12.5L10.9 13.2C8.9 15.2 6.7 16 5.8 16Z'/%3E%3C/svg%3E" style="background-color:#0B87DA; clip-path: circle();" width="24px" height="24px"> **如果你还在使用 Windows 7，请下载 [这个版本](https://download.jetbrains.com/idea/ideaIU-2020.1.4.exe)**。
 :::
 
 下载后同样运行安装程序，同意许可协议，安装即可。
