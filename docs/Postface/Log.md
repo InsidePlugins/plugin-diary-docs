@@ -40,6 +40,8 @@
 
 十二日午后，ThatRarityEG 道席登录了自己的 GitHub 账号，并为本教程仓库 [plugin-diary-docs](https://github.com/InsidePlugins/plugin-diary-docs) 点了 Star。我等编修人员不胜诚欢诚幸之至。
 
+二十六日旰，
+
 ![](data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAkAAAEALAAAAAABAAEAAAICTAEAOw==)
 
 <!-- 用一个 1x1 像素的图片占位，让距离不那么逼仄，图片用 Base64 编码 -->

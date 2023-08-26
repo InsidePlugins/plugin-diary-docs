@@ -1,57 +1,92 @@
 .btn-unconfirmed {
-    /* 确认行动结束按钮 */
-    color: #fff;
-    background-color: #17a2b8;
-    border-color: #17a2b8;
-    border-radius: 0.25rem;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    font-size: 16px;
+  &:hover {
+    box-shadow: 0 0 2px 4px #17a2b8;
+  }
+  /* 确认行动结束按钮 */
+  /* color: #fff; */
+  border: 2px solid #17a2b8;
+  border-radius: 0.25rem;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 16px;
+
+  box-shadow: 0 0 2px 4px transparent;
 }
 
 .btn-unconfirmed:hover {
-    /* 光标悬浮时加深颜色 */
-    color: #fff;
-    background-color: #138496;
-    border-color: #117a8b;
+  /* 光标悬浮时加深颜色 */
+  color: #fff;
+  background-color: #138496;
+  border-color: #117a8b;
 }
 
 .btn-unconfirmed:focus {
-    /* 点按后显示阴影 */
-    box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5);
+  /* 点按后显示阴影 */
+  box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5);
 }
 
 .btn-confirmed {
-    /* 恭喜按钮 */
-    color: #fff;
-    background-color: #28a745;
-    border-color: #28a745;
+  &:before, &:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    left: 0;
+    top: 0;
+
+    border: solid 2px #28a745;
     border-radius: 0.25rem;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    font-size: 16px;
+    animation: shining-success 1.25s infinite;
+  }
+  &:after {
+    animation: shining-success .75s infinite;
+  }
+  position: relative;
+
+  /* 恭喜按钮 */
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  border-radius: 0.25rem;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 16px;
+}
+
+@keyframes shining-success {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.0125);
+  }
 }
 
 .btn-confirmed:hover {
-    /* 光标悬浮时加深颜色 */
-    color: #fff;
-    background-color: #218838;
-    border-color: #1e7e34;
+  /* 光标悬浮时加深颜色 */
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
 }
 
 .btn-confirmed:focus {
-    /* 点按后显示阴影 */
-    box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+  /* 点按后显示阴影 */
+  box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
 }
 
 .btn-event {
-    /* 单击开始事件模拟按钮 */
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    background-color: #ffe0f0;
+  /* 单击开始事件模拟按钮 */
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #ffe0f0;
 
-    margin-top: 32px;
-    margin-bottom: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }

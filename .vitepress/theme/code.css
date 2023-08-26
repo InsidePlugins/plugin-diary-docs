@@ -10,28 +10,28 @@
     /* 调整背景颜色 */
     --vp-code-tab-bg: #E3E3E3;
     --vp-code-tab-text-color: #333333;
-    --vp-code-block-color: rgb(51, 51, 51);
-    --vp-code-block-bg: rgb(247, 247, 247);
-    --vp-c-text-code: #333333;
+    /* --vp-code-block-color: rgb(51, 51, 51); */
+    /* --vp-code-block-bg: rgb(247, 247, 247); */
+    /* --vp-c-text-code: #333333; */
 
     /* 复制按钮改浅 */
-    --vp-code-copy-code-bg: #808080;
-    --vp-code-copy-code-hover-bg: #606060;
-    --vp-code-copy-code-active-text: #FFFFFF;
+    /* --vp-code-copy-code-bg: #808080; */
+    /* --vp-code-copy-code-hover-bg: #606060; */
+    /* --vp-code-copy-code-active-text: #FFFFFF; */
     /* 复制按钮图标由灰色改白色 */
     --vp-icon-copy: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' height='20' width='20' stroke='rgba(255,255,255,1)' stroke-width='2' viewBox='0 0 24 24'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2'/%3E%3C/svg%3E");
     --vp-icon-copied: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' height='20' width='20' stroke='rgba(255,255,255,1)' stroke-width='2' viewBox='0 0 24 24'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2m-6 9 2 2 4-4'/%3E%3C/svg%3E");
 
     /* 容器中的代码块沿用正文格式 */
     --vp-custom-block-code-font-size: 0.95em;
-    --vp-custom-block-info-code-bg: #E3E3E3;
-    --vp-custom-block-danger-code-bg: #E3E3E3;
+    /* --vp-custom-block-info-code-bg: #E3E3E3; */
+    /* --vp-custom-block-danger-code-bg: #E3E3E3; */
 }
 
 .vp-doc :not(pre)>code {
     /* 小段代码，背景改深 */
-    background-color: #E3E3E3;
-    color: #333333;
+    /* background-color: #E3E3E3; */
+    /* color: #333333; */
 }
 
 .vp-doc [class*=language-]>span.lang {
@@ -39,7 +39,7 @@
     font-family: Inconsolata, Consolas, Menlo, Monaco, "Andale Mono WT",
         "Andale Mono", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
         "Courier New", Courier, monospace;
-    color: rgb(51, 51, 51);
+    /* color: rgb(51, 51, 51); */
 }
 
 .vp-doc .custom-block code {
@@ -49,7 +49,7 @@
 
 :root {
     /* 代码高亮 */
-    --shiki-color-text: #333333;
+    /* --shiki-color-text: #333333; */
     --shiki-color-background: #333333;
     --shiki-token-constant: #0077AA;
     --shiki-token-comment: #6E8090;

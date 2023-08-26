@@ -1,181 +1,299 @@
-@import url('https://fonts.googleapis.cn/css2?family=Fira+Code:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.cn/css2?family=Fira+Code:wght@400;700&display=swap");
 /* 从 google fonts cn 中引入 fira code 字体 */
 
 :root {
-    /* 应用 ThatRarityEG 原文的字体到教程正文 */
-    --vp-font-family-base: "Fira Code", BlinkMacSystemFont, "Segoe UI", Roboto,
-        "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    /* 加深字体颜色 */
-    --vp-c-text-light-1: rgb(77, 77, 77);
-    --vp-c-text-light-2: rgba(77, 77, 77, 0.75);
-    --vp-c-text-light-3: rgba(77, 77, 77, 0.33);
+  /* 应用 ThatRarityEG 原文的字体到教程正文 */
+  --vp-font-family-base: "Fira Code", BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* 加深字体颜色 */
+  --vp-c-text-light-1: rgb(77, 77, 77);
+  --vp-c-text-light-2: rgba(77, 77, 77, 0.75);
+  --vp-c-text-light-3: rgba(77, 77, 77, 0.33);
 }
 
 .vp-doc h1 {
-    /* ThatRarityEG 原文字体较大 */
-    font-size: 38px;
-    font-weight: 400;
-    color: #333333;
-    padding-bottom: 32px;
+  /* ThatRarityEG 原文字体较大 */
+  font-size: 38px;
+  font-weight: 400;
+  /* color: #333333; */
+  padding-bottom: 32px;
 }
 
 .vp-doc h2 {
-    /* 
+  /* 
         docsify 渲染页面时，在二级标题 <h2> 下方自动添加水平分割线。
         Vitepress 则在二级标题 <h2> 上方添加分割线，也使用有色 border 实现 <hr> 效果。
         ThatRarityEG 原文中的 --- 分割线往往在段尾，与标题的分割线重复。
         现将 Vitepress 的标题分割线挪至下方，模拟 docsify 效果。
      */
-    margin-top: 24px;
-    padding-top: 0px;
-    padding-bottom: 24px;
-    border-top: 0px;
-    border-bottom: 1px solid var(--vp-c-divider);
-    /* ThatRarityEG 原文字体较大 */
-    font-size: 28px;
-    font-weight: 400;
-    color: #333333;
+  margin-top: 24px;
+  padding-top: 0px;
+  padding-bottom: 24px;
+  border-top: 0px;
+  border-bottom: 1px solid var(--vp-c-divider);
+  /* ThatRarityEG 原文字体较大 */
+  font-size: 28px;
+  font-weight: 400;
+  /* color: #333333; */
 }
 
-.vp-doc h2>a.header-anchor {
-    top: 0px;
-    /* 
+.vp-doc h2 > a.header-anchor {
+  top: 0px;
+  /* 
         光标悬浮在标题上时，标题左侧会显示 # 符号，点击即可跳转到该标题对应的链接。
         更新至 Vitepress 1.0.0-rc.4 以后，# 符号的位置错误，应当上移。
     */
 }
 
 .vp-doc blockquote {
-    /* 引文用蓝色边框，浅灰色背景 */
-    background-color: rgb(247, 247, 247);
-    border-left-color: rgb(11, 135, 218);
-    border-left-style: solid;
-    border-left-width: 4px;
-    /* 增大引文区域内上下两侧的空白 */
-    padding-top: 10px;
-    padding-bottom: 10px;
-    /* 增大与其它文字间的距离 */
-    margin-top: 32px;
-    margin-bottom: 32px;
+  /* 引文用蓝色边框，浅灰色背景 */
+  background-color: var(--vp-c-bg-soft);
+  /* background-color: rgb(247, 247, 247); */
+  /* border-left-color: rgb(11, 135, 218); */
+  /* border-left-style: solid; */
+  /* border-left-width: 4px; */
+  /* 增大引文区域内上下两侧的空白 */
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
+  /* 增大与其它文字间的距离 */
+  /* margin-top: 32px; */
+  /* margin-bottom: 32px; */
+  margin: 24px 0;
+
+  &::before {
+    --theme-color: #0b87da !important;
+  }
+
+  border-radius: 0 6px 12px 0;
 }
 
-.vp-doc blockquote>p {
-    /* 引文段落间距增大，都用黑色文字 */
-    color: #4D4D4D;
-    padding-top: 6px;
-    padding-bottom: 6px;
+.vp-doc blockquote > p {
+  /* 引文段落间距增大，都用黑色文字 */
+  /* color: #4d4d4d; */
+  padding: 6px 16px;
+
+  text-indent: 16px;
 }
 
 .vp-doc ol {
-    /* 有序列表的序号应与正文对齐，而非让列表元素与正文对齐 */
-    margin-left: 12px;
+  /* 有序列表的序号应与正文对齐，而非让列表元素与正文对齐 */
+  margin-left: 12px;
 }
 
-.custom-block {
-    /* Custom Block 即 Vitepress 中所支持的 ::: 容器 */
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 4px;
-    border-bottom-style: solid;
-    border-bottom-width: 0px;
-    border-left-style: solid;
-    border-left-width: 4px;
-    border-right-style: solid;
-    border-right-width: 0px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 4px;
-    border-top-style: solid;
-    border-top-width: 0px;
-    /* 增大容器区域内上方的空白 */
-    padding-top: 10px;
-    padding-bottom: 2px;
-    /* 重置容器区域内左侧的空白 */
-    padding-left: 0px;
-    /* 增大与其它文字间的距离 */
-    margin-top: 32px;
-    margin-bottom: 32px;
+.vp-doc blockquote ul {
+  margin-left: 44px;
 }
 
-.custom-block>p:not(.custom-block-title) {
-    /* 都用黑色文字，增大字号 */
-    color: #4D4D4D;
-    font-size: 16px;
-    /* 容器段落间距增大 */
-    padding-top: 6px;
-    padding-bottom: 6px;
-    margin-top: 0px;
-    /* 容器段落向右侧缩进，确保标志图片在所有文字左侧 */
-    /* 图片向右缩进 12px，图片宽度 24px，再缩进 12px，总共 48px */
-    padding-left: 48px;
+.custom-block,
+.vp-doc blockquote {
+  &::before {
+    content: "";
+    position: absolute;
+
+    width: 4px;
+    height: 100%;
+
+    left: 0;
+    top: 0;
+
+    --theme-color: #0b87da;
+    border-radius: 8px;
+    box-shadow: 2px 0 4px 0px var(--theme-color);
+    background-color: var(--theme-color);
+  }
+  &:hover {
+    opacity: 1;
+  }
+  /* Custom Block 即 Vitepress 中所支持的 ::: 容器 */
+  /* border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 4px;
+  border-bottom-style: solid;
+  border-bottom-width: 0px;
+  border-left-style: solid;
+  border-left-width: 4px;
+  border-right-style: solid;
+  border-right-width: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 4px;
+  border-top-style: solid;
+  border-top-width: 0px; */
+  /* 增大容器区域内上方的空白 */
+  /* padding-top: 10px;
+  padding-bottom: 2px; */
+  /* 重置容器区域内左侧的空白 */
+  /* padding-left: 0px; */
+  /* 增大与其它文字间的距离 */
+  /* margin-top: 32px; */
+  /* margin-bottom: 32px; */
+
+  position: relative;
+
+  padding: 0.25rem 0.75rem;
+
+  border: none;
+  opacity: 0.85;
+
+  border-radius: 0 6px 12px 0;
+  background: var(--vp-c-bg-soft);
 }
 
-.custom-block>ul,
-.custom-block>ol {
-    /* 都用黑色文字，增大字号 */
-    color: #4D4D4D;
-    font-size: 16px;
-    /* 容器段落间距增大 */
-    padding-top: 6px;
-    padding-bottom: 6px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    /* 
+.custom-block > p:not(.custom-block-title) {
+  /* 都用黑色文字，增大字号 */
+  /* color: #4d4d4d; */
+  font-size: 16px;
+  /* 容器段落间距增大 */
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 0px;
+  /* 容器段落向右侧缩进，确保标志图片在所有文字左侧 */
+  /* 图片向右缩进 12px，图片宽度 24px，再缩进 12px，总共 48px */
+  padding-left: 48px;
+
+  /* 保证良好阅读体验，避免单字或分割 */
+  word-break: keep-all;
+}
+
+.custom-block > ul,
+.custom-block > ol {
+  /* 都用黑色文字，增大字号 */
+  color: #4d4d4d;
+  font-size: 16px;
+  /* 容器段落间距增大 */
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  /* 
         容器段落向右侧缩进，确保标志图片在所有文字左侧。
         由于列表项左侧有点，要让点与上方文字对齐，而不是正文与上方文字对齐。所以多缩进 16px。
      */
-    padding-left: 64px;
+  padding-left: 64px;
 }
 
 .custom-block-title {
-    /* 都用黑色文字，增大字号 */
-    color: #333333;
-    font-size: 16px;
-    /* 确保容器标志图片和标题在同一行 */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    /* 容器段落间距增大 */
-    padding-top: 6px;
-    padding-bottom: 6px;
-    /* 图片向右缩进 12px */
-    padding-left: 12px;
+  /* 都用黑色文字，增大字号 */
+  /* color: #333333; */
+  font-size: 16px;
+  /* 确保容器标志图片和标题在同一行 */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* 容器段落间距增大 */
+  padding-top: 6px;
+  padding-bottom: 6px;
+  /* 图片向右缩进 12px */
+  padding-left: 12px;
 }
 
-.custom-block-title>strong {
-    /* 文字与图片之间相距 12px */
-    padding-left: 12px;
+.custom-block-title > strong {
+  /* 文字与图片之间相距 12px */
+  padding-left: 12px;
 }
 
 .custom-block.danger {
-    /* Danger 外貌设为红色 */
-    background-color: rgb(251, 239, 243);
-    border-bottom-color: rgb(218, 11, 80);
-    border-left-color: rgb(218, 11, 80);
-    border-right-color: rgb(218, 11, 80);
-    border-top-color: rgb(218, 11, 80);
+  /* Danger 外貌设为红色 */
+  --theme-color: #da0b50;
 }
 
 .custom-block.details summary {
-    /* Details Summary 向右缩进 */
-    padding-left: 48px;
-    padding-top: 14px;
-    font-size: 16px;
+  /* Details Summary 向右缩进 */
+  padding-left: 48px;
+  padding-top: 14px;
+  font-size: 16px;
 }
 
 .custom-block.info {
-    /* Info 外貌设为蓝色 */
-    background-color: rgb(239, 246, 251);
-    border-bottom-color: rgb(11, 135, 218);
-    border-left-color: rgb(11, 135, 218);
-    border-right-color: rgb(11, 135, 218);
-    border-top-color: rgb(11, 135, 218);
+  /* Info 外貌设为蓝色 */
+  --theme-color: #0b87da;
 }
 
 .custom-block.tip {
-    /* Tip 外貌设为绿色 */
-    background-color: rgb(239, 246, 251);
-    border-bottom-color: rgb(5, 126, 61);
-    border-left-color: rgb(5, 126, 61);
-    border-right-color: rgb(5, 126, 61);
-    border-top-color: rgb(5, 126, 61);
+  &::before {
+    --theme-color: #057e3d;
+  }
+}
+
+div.VPNavBarTitle a.title {
+  background: -webkit-linear-gradient(90deg, #e71437 20%, #b1ceff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: var(--vp-home-hero-name-color);
+}
+
+div.actions div.action a.VPButton,
+div.VPFeatures div.VPFeature {
+  &::before {
+    z-index: -1;
+    content: "";
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    left: 0;
+    top: 0;
+
+    opacity: 0.75;
+
+    --color: var(--vp-button-alt-text);
+    --bg-color: var(--vp-button-alt-bg);
+    --bd-color: var(--vp-button-alt-border);
+
+    border-radius: 15px;
+    border-color: var(--bd-color);
+    color: var(--color);
+    background-color: var(--bg-color);
+
+    transition: 0.25s;
+  }
+  &.brand {
+    &::before {
+      --bg-color: var(--vp-button-brand-bg);
+      --bd-color: var(--vp-button-brand-border);
+    }
+    --color: var(--vp-button-brand-text);
+  }
+  &:hover {
+    &::before {
+      opacity: 0.85;
+
+      border-radius: 10px;
+    }
+
+    border-color: transparent;
+    background-color: transparent;
+  }
+  &:active {
+    transform: scale(0.85);
+  }
+  position: relative;
+
+  backdrop-filter: blur(48px) saturate(180%);
+
+  transition: 0.25s;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.image-container {
+  transform: none !important;
+}
+
+div.container div.main {
+  margin-top: 12%;
+
+  padding-left: 24px;
+  padding-top: 28px;
+  @media (min-width: 960px) {
+    margin-top: 0;
+  }
+}
+
+.image-container {
+  display: none;
+  @media (min-width: 960px) {
+    display: block;
+  }
 }

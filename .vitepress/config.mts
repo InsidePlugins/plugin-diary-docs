@@ -10,7 +10,7 @@ export default defineConfig({
   themeConfig: {
     nav,
     sidebar,
-    aside: false,
+    aside: true,
     docFooter: {
       prev: "this.prevPage();",
       next: "this.nextPage();",
@@ -21,7 +21,7 @@ export default defineConfig({
       text: "编辑本页内容",
     },
     lastUpdatedText: "本页更新于",
-    outline: false,
+    outline: 'deep',
     siteTitle: "PluginDiary",
     socialLinks: [
       {
@@ -37,7 +37,7 @@ export default defineConfig({
       },
     ],
   },
-  appearance: false,
+  appearance: true,
   lastUpdated: true,
   markdown: {
     theme: "css-variables",

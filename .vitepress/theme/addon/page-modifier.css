@@ -1,0 +1,49 @@
+html.dark .vp-doc iframe {
+
+  opacity: .5;
+  filter: invert(.15) brightness(1.1) contrast(1.1);
+  &:hover {
+    opacity: 1;
+    filter: invert(0) brightness(1) contrast(1);
+  }
+}
+
+.vp-doc iframe {
+  padding: 4px;
+
+  border-radius: 12px;
+  border: 2px solid var(--vp-c-bg-soft);
+  box-shadow: 0px 0px 4px 0px var(--vp-c-bg-soft);
+
+  height: 96px;
+
+  box-sizing: border-box;
+}
+
+/* 在黑暗模式下调低图片透明度，以免损坏眼睛 */
+/* 对已经适配的 .ignore img 忽略 */
+html.dark .vp-doc p img:not(.ignore) {
+  opacity: 0.95;
+  filter: invert(.25);
+  &:hover {
+    opacity: 1;
+    filter: invert(0);
+  }
+}
+
+.vp-doc p img {
+  border-radius: 8px;
+
+  cursor: pointer;
+  transition: .25s;
+  &:hover {
+    border-radius: 0;
+    transform: scale(1.025);
+  }
+}
+
+/* 在主页的黑暗模式下，对整个页面做滤镜 */
+html.dark div.VPContent.is-home {
+  opacity: .85;
+  filter: invert(.15) brightness(1.1) contrast(1.1);
+}
