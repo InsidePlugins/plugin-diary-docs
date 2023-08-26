@@ -16,6 +16,8 @@ hero:
     - theme: alt
       text: 开发交流社区
       link: https://discord.gg/7jS7RsMBda
+  image:
+    src: 'data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAkAAAEALAAAAAABAAEAAAICTAEAOw=='
 
 features:
   - icon: 🦄
@@ -42,3 +44,28 @@ features:
     --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #731482 20%, #DF307F);
   }
 </style>
+
+<script setup>
+  import * as skinview3d from 'skinview3d';
+  import { onMounted } from 'vue';
+
+  onMounted(() => {
+    const container = document.querySelector('.image-container');
+    container.innerHTML = '<canvas id="skin_container"></canvas>';
+    
+      let skinViewer = new skinview3d.SkinViewer({
+          canvas: document.getElementById("skin_container"),
+          width: 500,
+          height: 500,
+          skin: "skin.png"
+      });
+    
+    skinViewer.background = 0xb1ceff;
+      skinViewer.fov = 50;
+      skinViewer.zoom = 0.6;
+      skinViewer.autoRotate = false;
+      skinViewer.animation = new skinview3d.WalkingAnimation();
+      skinViewer.animation.speed = 0.5;
+    skinViewer.nameTag = "ThatRarityEG";
+    })
+</script>
