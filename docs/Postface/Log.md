@@ -22,9 +22,9 @@
 
 七日晚，Moe_Miner 和 William_Shi 二人重绘图片告竣。教程内容全齐。于是二人拟在 MCBBS 编程开发版发帖，用于宣传《补订<日记>》，并由论坛管理组在 [ThatRarityEG 原帖](https://www.mcbbs.net/thread-1163259-1-1.html)内删去失效域名，添加《补订<日记>》相关信息。私信呈请于[编程开发版 tdiant 版主](https://www.mcbbs.net/home.php?mod=space&username=tdiant)后，获准。
 
-八日午后，William_Shi 将草稿帖发出，即[《补订 RarityEG's Plugin Dev Tutorial 插件开发日记》](https://www.mcbbs.net/thread-1454134-1-1.html)。又在 MCBBS 反馈版发布主题[《申请维护 RarityEG's Plugin Dev Tutorial》](https://www.mcbbs.net/thread-1454189-1-1.html)，请求版主在原帖内标注旧有的 [xuogroup.top](https://xuogroup.top/) 域名为「失效入口」，并提供指向《补订<日记>》的链接。敬承版主 tdiant 睿恩，许破旧格，诏准申请，亲自移动原帖的精华图标、图章、高亮至新帖。身依枫陛，瞻天仰圣，不胜感激之至。
+八日午后，William_Shi 将草稿帖发出，即[《补订 RarityEG's Plugin Dev Tutorial 插件开发日记》](https://www.mcbbs.net/thread-1454134-1-1.html)。又在 MCBBS 反馈版发布主题[《申请维护 RarityEG's Plugin Dev Tutorial》](https://www.mcbbs.net/thread-1454189-1-1.html)，请求版主在原帖内标注旧有的 [xuogroup.top](https://xuogroup.top/) 域名为「失效入口」，并提供指向《补订<日记>》的链接。敬承版主 tdiant 之恩，许破旧格，敕准申请，亲自移动原帖的精华图标、图章、高亮至新帖。不胜感激之至。
 
-二十一日中午，Freeze_Dolphin 编写了一节 Adventure API 教程。按，Adventure API 系属 Paper 团队引入服务端中，以便插件开发者编辑富文本。5-6 所介绍的 BungeeCord Chat API，就是 Spigot 服务端中的富文本 API。但这套 API 仅供插件给玩家发送聊天消息之用。像物品堆 Lore、物品堆 Display Name 等处，虽说 Minecraft 本身支持富文本，Spigot 服务端却都用 `java.lang.String`，而不允许开发者使用富文本。因而 Paper 使用新的类库，并修改 `ItemStack` 等类，添加一些以富文本为参数的方法。以 `String` 为参数的旧方法，标作过时。这很可能令 Spigot 插件开发者无所适从，以至误以为 Paper 服务端中不能修改物品堆 Lore，甚至是不能给玩家发送聊天消息。既然 ThatRarityEG 在 EX-2-1 中建议读者使用 Paper API 以替代 Spigot API，故必须另起一节，专门论述这些过时方法的替代品。经讨论，决定于原先的 5-6「原始 JSON 文本」和 5-7「自定义进度」之间插入这篇 Adventure API 教程，将「自定义进度」移至 5-8。这样安排位置，原因有三。第一，教程第五卷主要介绍前文中所未提及的一部分 Bukkit API 内的方法，章节合适。第二，5-6 介绍了 Spigot API 中的富文本类库，5-7 再介绍 Paper API 中的富文本类库，主题顺承。第三，「自定义进度」这一节有结束语，对第五卷内容作了扼要总结，必须置尾，故不宜将新篇附在卷末。
+二十一日中午，Freeze_Dolphin 编写了一节 Adventure API 教程。按，Adventure API 系属 Paper 团队引入服务端中，以便插件开发者编辑富文本。5-6 所介绍的 BungeeCord Chat API，就是 Spigot 服务端中的富文本 API。但这套 API 主要供插件修改书本物品堆内容以及给玩家发送聊天消息，像物品堆 Lore、物品堆 Display Name 等处，虽说 Minecraft 本身支持富文本，Spigot 服务端却都用 `java.lang.String`，而不允许开发者使用 `BaseComponent`。因而 Paper 纳入新的类库，并修改 `ItemStack` 等类，添加一些以富文本为参数的方法。至于那些以 `String` 为参数的旧方法，则统统标作过时。这很可能令 Spigot 插件开发者无所适从，以至误以为 Paper 服务端中不能修改物品堆 Lore，甚至是不能给玩家发送聊天消息。既然 ThatRarityEG 在 EX-2-1 中建议读者使用 Paper API 以替代 Spigot API，故必须另起一节，专门论述这些过时方法的替代品。经讨论，决定于原先的 5-6「原始 JSON 文本」和 5-7「自定义进度」之间插入这篇 Adventure API 教程，将「自定义进度」移至 5-8。这样安排位置，原因有三。第一，教程第五卷主要介绍前文中所未提及的一部分 Bukkit API 内的方法，章节合适。第二，5-6 介绍了 Spigot API 中的富文本类库，5-7 再介绍 Paper API 中的富文本类库，主题顺承。第三，「自定义进度」这一节有结束语，对第五卷内容作了扼要总结，必须置尾，故不宜将新篇附在卷末。
 
 二十五日中午，CaveNightingale 对原有的 AC-1-3 节内容作了扩充修正。按，原教程中异步调用了 setWalkSpeed 方法，但该方法并不线程安全。又如，真实服务器环境中，玩家上线时的位置可能处于下界传送门内，因而无法登录。种种问题此处不具。原「调试 HarmonyAuth SMART」篇幅仅有一节，即 AC-1-3。现在将 AC-1-3 命名为「调试 HarmonyAuth SMART Part I」，新增 AC-1-4，命名为「调试 HarmonyAuth SMART Part II」。
 
@@ -36,7 +36,7 @@
 
 一日晚，多位读者反映网站无法访问。原因未知。无何，网站自行恢复。
 
-十二日午后，ThatRarityEG 道席登录了自己的 GitHub 账号，并为本教程仓库 [plugin-diary-docs](https://github.com/InsidePlugins/plugin-diary-docs) 点了 Star。我等编修人员不胜诚欢诚幸之至。
+十二日午后，ThatRarityEG 道席登录了自己的 GitHub 账号，并为本教程仓库 [plugin-diary-docs](https://github.com/InsidePlugins/plugin-diary-docs) 点了 Star。所愧蒲编校订未成，注文舛错颇多。恭承指示，必遵睿训，惟望无损于原文之风雅，未敢奢求增益。我等编修人员不胜诚惧诚幸，踊跃欢忭之至！
 
 二十六日晚，TalexDreamSoul 对网站界面作了修改。首页对不同分辨率的设备作了自适应，又重新添加了 Dark Mode。页面内容又用多个 CSS 作了美化。旧的首页背景图片是 William_Shi 所截取，在游戏内生成一个假人并套上 ThatRarityEG 的正版账号皮肤。现改用 SkinView3D 展示 ThatRarityEG 的人物模型。[Vitepress](https://vitepress.dev/) 版本升级至 1.0.0-rc.4。
 
