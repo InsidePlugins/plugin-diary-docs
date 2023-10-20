@@ -26,7 +26,7 @@
 
 二十一日中午，Freeze_Dolphin 编写了一节 Adventure API 教程。按，Adventure API 系属 Paper 团队引入服务端中，以便插件开发者编辑富文本。5-6 所介绍的 BungeeCord Chat API，就是 Spigot 服务端中的富文本 API。但这套 API 主要供插件修改书本物品堆内容以及给玩家发送聊天消息，像物品堆 Lore、物品堆 Display Name 等处，虽说 Minecraft 本身支持富文本，Spigot 服务端却都用 `java.lang.String`，而不允许开发者使用 `BaseComponent`。因而 Paper 纳入新的类库，并修改 `ItemStack` 等类，添加一些以富文本为参数的方法。至于那些以 `String` 为参数的旧方法，则统统标作过时。这很可能令 Spigot 插件开发者无所适从，以至误以为 Paper 服务端中不能修改物品堆 Lore，甚至是不能给玩家发送聊天消息。既然 ThatRarityEG 在 EX-2-1 中建议读者使用 Paper API 以替代 Spigot API，故必须另起一节，专门论述这些过时方法的替代品。经讨论，决定于原先的 5-6「原始 JSON 文本」和 5-7「自定义进度」之间插入这篇 Adventure API 教程，将「自定义进度」移至 5-8。这样安排位置，原因有三。第一，教程第五卷主要介绍前文中所未提及的一部分 Bukkit API 内的方法，章节合适。第二，5-6 介绍了 Spigot API 中的富文本类库，5-7 再介绍 Paper API 中的富文本类库，主题顺承。第三，「自定义进度」这一节有结束语，对第五卷内容作了扼要总结，必须置尾，故不宜将新篇附在卷末。
 
-二十五日中午，CaveNightingale 对原有的 AC-1-3 节内容作了扩充修正。按，原教程中异步调用了 setWalkSpeed 方法，但该方法并不线程安全。又如，真实服务器环境中，玩家上线时的位置可能处于下界传送门内，因而无法登录。种种问题此处不具。原「调试 HarmonyAuth SMART」篇幅仅有一节，即 AC-1-3。现在将 AC-1-3 命名为「调试 HarmonyAuth SMART Part I」，新增 AC-1-4，命名为「调试 HarmonyAuth SMART Part II」。
+二十五日中午，CaveNightingale 对原有的 AC-1-3 节内容作了扩充修正。按，原教程中异步调用了 `setWalkSpeed` 方法，但该方法并不线程安全。又如，真实服务器环境中，玩家上线时的位置可能处于下界传送门内，因而无法登录。种种问题此处不具。原「调试 HarmonyAuth SMART」篇幅仅有一节，即 AC-1-3。现在将 AC-1-3 命名为「调试 HarmonyAuth SMART Part I」，新增 AC-1-4，命名为「调试 HarmonyAuth SMART Part II」。
 
 二十五日晚，GitHub 仓库与网站内容不再同步。修改 GitHub 仓库内的文件后，网站内容仍为原样。按 Moe_Miner 称，莱云的 cPanel 许可证又坏了，本教程网站的自动部署藉由 cPanel 的 Git 功能来同步，受其影响，不能工作。
 
